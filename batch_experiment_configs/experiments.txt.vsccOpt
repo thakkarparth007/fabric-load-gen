@@ -1,0 +1,118 @@
+#NumProcesses NumClientsPerProcess NumLocRequestsRate BatchSize NumEndorsers Channels SystemType NumOrderers StateDB
+
+
+## ParallelVSCC with local validation workers - higher input rate
+$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout 11d3b7d5a444600d3d5981592816222366b4940b; make peer orderer;" & done; wait
+
+$ for i in peer{0..7}; do ssh $i "echo 15 > parallelVSCCWorkerCount.txt" & done; wait
+10 20 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 15localWorkers 
+10 22 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 15localWorkers 
+10 20 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only 15localWorkers 
+10 22 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only 15localWorkers 
+
+
+## ParalllelVSCC with global validation workers - higher input rate
+$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout parallel_vscc_only; git pull; make peer orderer;" & done; wait
+
+$ for i in peer{0..7}; do ssh $i "echo 15 > parallelVSCCWorkerCount.txt" & done; wait
+10 20 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really15GlobalWorkers 
+10 22 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really15GlobalWorkers 
+10 20 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really15GlobalWorkers 
+10 22 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really15GlobalWorkers 
+
+
+## ParallelVSCC + MSP, with 4 vCPU and 4 vscc threads.
+# $ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout parallel_vscc; git pull; make peer orderer;" & done; wait
+# 
+# 10 8 1 30 2 1 open 1 LevelDB 4vCPU writeRandom VSCC_MSP_4vscc EffectOfParVSCC_On_ValidatePrep
+# 10 8 1 30 2 2 open 1 LevelDB 4vCPU writeRandom VSCC_MSP_4vscc EffectOfParVSCC_On_ValidatePrep
+# 10 8 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_MSP_4vscc EffectOfParVSCC_On_ValidatePrep
+# 10 8 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_MSP_4vscc EffectOfParVSCC_On_ValidatePrep
+
+
+
+#10  8 1 30 2 4 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  8 1 30 2 8 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+
+#10  8 1 30 2 4 open 1 LevelDB 4vCPU WriteRandom NO_OPT InternPresentation
+#10  8 1 30 2 8 open 1 LevelDB 4vCPU WriteRandom NO_OPT InternPresentation
+
+#10  8 1 30 1 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  8 1 30 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  8 1 30 3 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  8 1 30 4 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+
+#6   2 1 10 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#5   5 1 10 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#8   5 1 10 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#5  10 1 10 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#11  6 1 10 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  8 1 10 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  9 1 10 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10 11 1 10 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#
+
+#6   2 1 20 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#5   5 1 20 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#8   5 1 20 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#5  10 1 20 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#11  6 1 30 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  8 1 30 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  9 1 30 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10 11 1 30 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#
+
+#6   2 1 50 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#5   5 1 50 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#8   5 1 50 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#5  10 1 50 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#11  6 1 50 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  8 1 50 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  9 1 50 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10 11 1 50 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#
+#6   2 1 100 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#5   5 1 100 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#8   5 1 100 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#5  10 1 100 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#11  6 1 100 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  8 1 100 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  9 1 100 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10 11 1 100 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#
+#6   2 1 200 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#5   5 1 200 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#8   5 1 200 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#5  10 1 200 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#11  6 1 200 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  8 1 200 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10  9 1 200 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+#10 11 1 200 2 1 open 1 LevelDB 2vCPU WriteRandom NO_OPT InternPresentation
+
+
+#5  4 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite small 3-key 10K-Keys NO_OPT InternPresentation 
+#5  6 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite small 3-key 10K-Keys NO_OPT InternPresentation 
+#5  8 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite small 3-key 10K-Keys NO_OPT InternPresentation 
+#5 10 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite small 3-key 10K-Keys NO_OPT InternPresentation 
+#5  4 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite small 3-key 10K-Keys NO_OPT InternPresentation 
+#5  6 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite small 3-key 10K-Keys NO_OPT InternPresentation 
+#5  8 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite small 3-key 10K-Keys NO_OPT InternPresentation 
+#5 10 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite small 3-key 10K-Keys NO_OPT InternPresentation 
+#
+#5  4 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite medium 3-key 10K-Keys NO_OPT InternPresentation 
+#5  6 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite medium 3-key 10K-Keys NO_OPT InternPresentation 
+#5  8 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite medium 3-key 10K-Keys NO_OPT InternPresentation 
+#5 10 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite medium 3-key 10K-Keys NO_OPT InternPresentation 
+#5  4 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite medium 3-key 10K-Keys NO_OPT InternPresentation 
+#5  6 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite medium 3-key 10K-Keys NO_OPT InternPresentation 
+#5  8 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite medium 3-key 10K-Keys NO_OPT InternPresentation 
+#5 10 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite medium 3-key 10K-Keys NO_OPT InternPresentation 
+#
+#5  4 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite large 3-key 10K-Keys NO_OPT InternPresentation 
+#5  6 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite large 3-key 10K-Keys NO_OPT InternPresentation 
+#5  8 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite large 3-key 10K-Keys NO_OPT InternPresentation 
+#5 10 1 30 2 1 open 1 LevelDB 2vCPU ReadWrite large 3-key 10K-Keys NO_OPT InternPresentation 
+#5  4 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite large 3-key 10K-Keys NO_OPT InternPresentation 
+#5  6 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite large 3-key 10K-Keys NO_OPT InternPresentation 
+#5  8 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite large 3-key 10K-Keys NO_OPT InternPresentation 
+#5 10 1 30 2 1 open 1 CouchDB 2vCPU ReadWrite large 3-key 10K-Keys NO_OPT InternPresentation 

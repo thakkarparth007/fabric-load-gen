@@ -1,0 +1,1385 @@
+
+Thu Oct 12 23:33:21 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 2vCPU writeRandom VSCC_ONLY EffectOfParVSCC_on_ValidatePrep'
+Thu Oct 12 23:37:50 IST 2017 Finished experiment 1. Approx input rate: 79.8 Tx/s
+Thu Oct 12 23:37:54 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 2-Channels - Full: '10 8 1 30 2 2 open 1 LevelDB 2vCPU writeRandom VSCC_ONLY EffectOfParVSCC_on_ValidatePrep'
+Thu Oct 12 23:42:55 IST 2017 Finished experiment 2. Approx input rate: 79.8 Tx/s
+Thu Oct 12 23:43:44 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 4vCPU WriteRandom VSCC_ONLY EffectOfParVSCC_On_ValidatePrepare'
+Thu Oct 12 23:48:02 IST 2017 Finished experiment 3. Approx input rate: 79.8 Tx/s
+Thu Oct 12 23:57:30 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 4vCPU writeRandom VSCC_ONLY EffectOfParVSCC_On_ValidatePrepare'
+Fri Oct 13 00:01:50 IST 2017 Finished experiment 3. Approx input rate: 79.8 Tx/s
+Fri Oct 13 00:01:55 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 2-Channels - Full: '10 8 1 30 2 2 open 1 LevelDB 4vCPU writeRandom VSCC_ONLY EffectOfParVSCC_On_ValidatePrepare'
+Fri Oct 13 00:06:49 IST 2017 Finished experiment 4. Approx input rate: 79.8 Tx/s
+Fri Oct 13 00:31:54 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 4vCPU writeRandom VSCC_ONLY EffectOfParVSCC_On_ValidatePrepare'
+Fri Oct 13 00:36:18 IST 2017 Finished experiment 3. Approx input rate: 79.8 Tx/s
+Fri Oct 13 01:18:20 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 2vCPU writeRandom VSCC_MSP EffectOfParVSCC_on_ValidatePrep'
+Fri Oct 13 01:22:51 IST 2017 Finished experiment 4. Approx input rate: 79.8 Tx/s
+Fri Oct 13 01:22:55 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 2-Channels - Full: '10 8 1 30 2 2 open 1 LevelDB 2vCPU writeRandom VSCC_MSP EffectOfParVSCC_on_ValidatePrep'
+Fri Oct 13 01:27:55 IST 2017 Finished experiment 6. Approx input rate: 79.9 Tx/s
+Fri Oct 13 01:28:44 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 4vCPU writeRandom VSCC_MSP EffectOfParVSCC_On_ValidatePrep'
+Fri Oct 13 01:33:06 IST 2017 Finished experiment 7. Approx input rate: 79.9 Tx/s
+Fri Oct 13 01:33:10 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 2-Channels - Full: '10 8 1 30 2 2 open 1 LevelDB 4vCPU writeRandom VSCC_MSP EffectOfParVSCC_On_ValidatePrep'
+Fri Oct 13 01:38:05 IST 2017 Finished experiment 8. Approx input rate: 79.8 Tx/s
+Fri Oct 13 02:41:52 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout parallel_vscc_only; git pull; make peer orderer;" & done; wait'
+Fri Oct 13 02:42:01 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 4vCPU writeRandom VSCC_Only_4vscc EffectOfParVSCC_on_ValidatePrep'
+Fri Oct 13 02:46:26 IST 2017 Finished experiment 9. Approx input rate: 79.8 Tx/s
+Fri Oct 13 02:46:31 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 2-Channels - Full: '10 8 1 30 2 2 open 1 LevelDB 4vCPU writeRandom VSCC_Only_4vscc EffectOfParVSCC_on_ValidatePrep'
+Fri Oct 13 02:51:29 IST 2017 Finished experiment 10. Approx input rate: 79.8 Tx/s
+Fri Oct 13 02:51:34 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 8 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only_4vscc EffectOfParVSCC_on_ValidatePrep'
+Fri Oct 13 02:57:39 IST 2017 Finished experiment 11. Approx input rate: 79.8 Tx/s
+Fri Oct 13 02:57:43 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 8 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only_4vscc EffectOfParVSCC_on_ValidatePrep'
+Fri Oct 13 03:06:01 IST 2017 Finished experiment 12. Approx input rate: 79.8 Tx/s
+Fri Oct 13 03:06:01 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout parallel_vscc; git pull; make peer orderer;" & done; wait'
+Fri Oct 13 03:06:23 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 4vCPU writeRandom VSCC_MSP_4vscc EffectOfParVSCC_On_ValidatePrep'
+Fri Oct 13 03:10:48 IST 2017 Finished experiment 13. Approx input rate: 79.8 Tx/s
+Fri Oct 13 03:10:52 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 2-Channels - Full: '10 8 1 30 2 2 open 1 LevelDB 4vCPU writeRandom VSCC_MSP_4vscc EffectOfParVSCC_On_ValidatePrep'
+Fri Oct 13 03:15:51 IST 2017 Finished experiment 14. Approx input rate: 79.8 Tx/s
+Fri Oct 13 03:15:55 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 8 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_MSP_4vscc EffectOfParVSCC_On_ValidatePrep'
+Fri Oct 13 03:21:59 IST 2017 Finished experiment 15. Approx input rate: 79.8 Tx/s
+Fri Oct 13 03:22:04 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 8 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_MSP_4vscc EffectOfParVSCC_On_ValidatePrep'
+Fri Oct 13 03:30:22 IST 2017 Finished experiment 16. Approx input rate: 79.8 Tx/s
+Fri Oct 13 06:34:59 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout parallel_vscc_only; git pull; make peer orderer; echo 4 > ~/parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 06:35:26 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4GlobalWorkers'
+Fri Oct 13 06:40:01 IST 2017 Finished experiment 17. Approx input rate: 79.8 Tx/s
+Fri Oct 13 06:40:06 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 2-Channels - Full: '10 8 1 30 2 2 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4GlobalWorkers'
+Fri Oct 13 06:45:13 IST 2017 Finished experiment 18. Approx input rate: 79.8 Tx/s
+Fri Oct 13 06:45:18 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 8 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4GlobalWorkers'
+Fri Oct 13 06:51:22 IST 2017 Finished experiment 19. Approx input rate: 79.8 Tx/s
+Fri Oct 13 06:51:26 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 8 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4GlobalWorkers'
+Fri Oct 13 06:59:46 IST 2017 Finished experiment 20. Approx input rate: 79.8 Tx/s
+Fri Oct 13 06:59:46 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 8 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 06:59:51 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 4vCPU writeRandom VSCC_Only 8GlobalWorkers'
+Fri Oct 13 07:04:17 IST 2017 Finished experiment 21. Approx input rate: 79.8 Tx/s
+Fri Oct 13 07:04:21 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 2-Channels - Full: '10 8 1 30 2 2 open 1 LevelDB 4vCPU writeRandom VSCC_Only 8GlobalWorkers'
+Fri Oct 13 07:09:19 IST 2017 Finished experiment 22. Approx input rate: 79.8 Tx/s
+Fri Oct 13 07:09:24 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 8 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 8GlobalWorkers'
+Fri Oct 13 07:15:29 IST 2017 Finished experiment 23. Approx input rate: 79.8 Tx/s
+Fri Oct 13 07:15:34 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 8 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only 8GlobalWorkers'
+Fri Oct 13 07:23:52 IST 2017 Finished experiment 24. Approx input rate: 79.8 Tx/s
+Fri Oct 13 07:32:22 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout parallel_vscc_only; git pull; make peer orderer;" & done; wait'
+Fri Oct 13 07:32:37 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 4 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 07:32:42 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 07:37:09 IST 2017 Finished experiment 25. Approx input rate: 79.8 Tx/s
+Fri Oct 13 07:37:09 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 8 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 07:37:14 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 8 1 30 2 1 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really8GlobalWorkers'
+Fri Oct 13 07:41:39 IST 2017 Finished experiment 26. Approx input rate: 79.8 Tx/s
+Fri Oct 13 07:41:39 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 4 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 07:41:44 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 2-Channels - Full: '10 8 1 30 2 2 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 07:46:43 IST 2017 Finished experiment 27. Approx input rate: 79.8 Tx/s
+Fri Oct 13 07:46:43 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 8 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 07:46:48 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 2-Channels - Full: '10 8 1 30 2 2 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really8GlobalWorkers'
+Fri Oct 13 07:51:46 IST 2017 Finished experiment 28. Approx input rate: 79.8 Tx/s
+Fri Oct 13 07:51:46 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 4 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 07:51:51 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 8 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 07:57:56 IST 2017 Finished experiment 29. Approx input rate: 79.8 Tx/s
+Fri Oct 13 07:57:56 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 8 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 07:58:00 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 8 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really8GlobalWorkers'
+Fri Oct 13 08:04:07 IST 2017 Finished experiment 30. Approx input rate: 79.8 Tx/s
+Fri Oct 13 08:04:07 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 4 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 08:04:12 IST 2017 Starting new experiment from config: (1) 80Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 8 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 08:17:02 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout 11d3b7d5a444600d3d5981592816222366b4940b; make peer orderer;" & done; wait'
+Fri Oct 13 08:17:12 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 4 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 08:17:17 IST 2017 Starting new experiment from config: (1) 100Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 10 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4localWorkers'
+Fri Oct 13 08:23:24 IST 2017 Finished experiment 31. Approx input rate: 99.8 Tx/s
+Fri Oct 13 08:23:29 IST 2017 Starting new experiment from config: (1) 120Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 12 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4localWorkers'
+Fri Oct 13 08:29:35 IST 2017 Finished experiment 32. Approx input rate: 119.5 Tx/s
+Fri Oct 13 08:29:35 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout parallel_vscc_only; git pull; make peer orderer;" & done; wait'
+Fri Oct 13 08:29:48 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 4 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 08:29:53 IST 2017 Starting new experiment from config: (1) 100Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 10 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 08:35:59 IST 2017 Finished experiment 33. Approx input rate: 99.7 Tx/s
+Fri Oct 13 08:36:03 IST 2017 Starting new experiment from config: (1) 120Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 12 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 08:42:09 IST 2017 Finished experiment 34. Approx input rate: 119.5 Tx/s
+Fri Oct 13 08:42:09 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 8 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 08:42:14 IST 2017 Starting new experiment from config: (1) 100Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 10 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really8GlobalWorkers'
+Fri Oct 13 08:48:20 IST 2017 Finished experiment 35. Approx input rate: 99.8 Tx/s
+Fri Oct 13 08:48:24 IST 2017 Starting new experiment from config: (1) 120Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 12 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really8GlobalWorkers'
+Fri Oct 13 08:54:31 IST 2017 Finished experiment 36. Approx input rate: 119.7 Tx/s
+Fri Oct 13 08:56:13 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout 11d3b7d5a444600d3d5981592816222366b4940b; make peer orderer;" & done; wait'
+Fri Oct 13 08:56:24 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 4 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 08:56:29 IST 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 15 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4localWorkers'
+Fri Oct 13 08:58:47 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout 11d3b7d5a444600d3d5981592816222366b4940b; make peer orderer;" & done; wait'
+Fri Oct 13 08:58:53 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 4 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 08:58:58 IST 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 15 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4localWorkers'
+Fri Oct 13 09:05:06 IST 2017 Finished experiment 37. Approx input rate: 150.0 Tx/s
+Fri Oct 13 09:05:10 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 18 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4localWorkers'
+Fri Oct 13 09:11:19 IST 2017 Finished experiment 38. Approx input rate: 178.7 Tx/s
+Fri Oct 13 09:11:23 IST 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 15 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4localWorkers'
+Fri Oct 13 09:19:43 IST 2017 Finished experiment 39. Approx input rate: 149.5 Tx/s
+Fri Oct 13 09:19:48 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 18 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4localWorkers'
+Fri Oct 13 09:28:09 IST 2017 Finished experiment 40. Approx input rate: 178.5 Tx/s
+Fri Oct 13 09:28:09 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout parallel_vscc_only; git pull; make peer orderer;" & done; wait'
+Fri Oct 13 09:28:21 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 4 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 09:28:26 IST 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 15 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 09:34:33 IST 2017 Finished experiment 41. Approx input rate: 149.7 Tx/s
+Fri Oct 13 09:34:38 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 18 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 09:40:46 IST 2017 Finished experiment 42. Approx input rate: 178.8 Tx/s
+Fri Oct 13 09:40:50 IST 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 15 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 09:49:10 IST 2017 Finished experiment 43. Approx input rate: 149.6 Tx/s
+Fri Oct 13 09:49:15 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 18 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 09:57:35 IST 2017 Finished experiment 44. Approx input rate: 178.6 Tx/s
+Fri Oct 13 09:57:35 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 8 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 09:57:40 IST 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 15 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really8GlobalWorkers'
+Fri Oct 13 10:03:47 IST 2017 Finished experiment 45. Approx input rate: 150.0 Tx/s
+Fri Oct 13 10:03:51 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 18 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really8GlobalWorkers'
+Fri Oct 13 10:09:59 IST 2017 Finished experiment 46. Approx input rate: 178.8 Tx/s
+Fri Oct 13 10:10:04 IST 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 15 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really8GlobalWorkers'
+Fri Oct 13 10:18:24 IST 2017 Finished experiment 47. Approx input rate: 149.4 Tx/s
+Fri Oct 13 10:18:28 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 18 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really8GlobalWorkers'
+Fri Oct 13 10:26:49 IST 2017 Finished experiment 48. Approx input rate: 178.8 Tx/s
+Fri Oct 13 19:27:02 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout 11d3b7d5a444600d3d5981592816222366b4940b; make peer orderer;" & done; wait'
+Fri Oct 13 19:27:13 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 15 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 19:28:02 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 18 1 30 2 4 open 1 LevelDB 2vCPU writeRandom VSCC_Only 4localWorkers'
+Fri Oct 13 19:34:09 IST 2017 Finished experiment 49. Approx input rate: 179.0 Tx/s
+Fri Oct 13 19:34:14 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 18 1 30 2 8 open 1 LevelDB 2vCPU writeRandom VSCC_Only 4localWorkers'
+Fri Oct 13 19:42:31 IST 2017 Finished experiment 50. Approx input rate: 179.0 Tx/s
+Fri Oct 13 19:42:31 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 15 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 19:43:20 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 18 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4localWorkers'
+Fri Oct 13 19:49:24 IST 2017 Finished experiment 51. Approx input rate: 179.0 Tx/s
+Fri Oct 13 19:49:28 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 18 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only 4localWorkers'
+Fri Oct 13 19:57:45 IST 2017 Finished experiment 52. Approx input rate: 178.9 Tx/s
+Fri Oct 13 19:57:45 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout parallel_vscc_only; git pull; make peer orderer;" & done; wait'
+Fri Oct 13 19:57:56 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 15 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 19:58:45 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 18 1 30 2 4 open 1 LevelDB 2vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 20:04:51 IST 2017 Finished experiment 53. Approx input rate: 178.5 Tx/s
+Fri Oct 13 20:04:55 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 18 1 30 2 8 open 1 LevelDB 2vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 20:13:13 IST 2017 Finished experiment 54. Approx input rate: 178.8 Tx/s
+Fri Oct 13 20:13:13 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 15 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 20:14:02 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 18 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 20:20:05 IST 2017 Finished experiment 55. Approx input rate: 178.8 Tx/s
+Fri Oct 13 20:20:10 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 18 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really4GlobalWorkers'
+Fri Oct 13 20:28:26 IST 2017 Finished experiment 56. Approx input rate: 178.6 Tx/s
+Fri Oct 13 20:28:27 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 30 > parallelVSCCWorkerCount.txt" & done; wait'
+Fri Oct 13 20:29:16 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 18 1 30 2 4 open 1 LevelDB 2vCPU writeRandom VSCC_Only Really8GlobalWorkers'
+Fri Oct 13 20:35:22 IST 2017 Finished experiment 57. Approx input rate: 178.8 Tx/s
+Fri Oct 13 20:35:26 IST 2017 Starting new experiment from config: (1) 180Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 18 1 30 2 8 open 1 LevelDB 2vCPU writeRandom VSCC_Only Really8GlobalWorkers'
+Fri Oct 13 20:43:43 IST 2017 Finished experiment 58. Approx input rate: 178.8 Tx/s
+Tue Oct 17 15:47:16 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout 11d3b7d5a444600d3d5981592816222366b4940b; make peer orderer;" & done; wait'
+Tue Oct 17 15:47:40 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout 11d3b7d5a444600d3d5981592816222366b4940b; make peer orderer;" & done; wait'
+Tue Oct 17 15:47:44 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 15 > parallelVSCCWorkerCount.txt" & done; wait'
+Tue Oct 17 15:48:38 IST 2017 Starting new experiment from config: (1) 200Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 20 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 15localWorkers'
+Tue Oct 17 15:54:45 IST 2017 Finished experiment 59. Approx input rate: 198.2 Tx/s
+Tue Oct 17 15:54:50 IST 2017 Starting new experiment from config: (1) 220Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 22 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only 15localWorkers'
+Tue Oct 17 16:00:55 IST 2017 Finished experiment 60. Approx input rate: 216.4 Tx/s
+Tue Oct 17 16:00:59 IST 2017 Starting new experiment from config: (1) 200Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 20 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only 15localWorkers'
+Tue Oct 17 16:09:16 IST 2017 Finished experiment 61. Approx input rate: 197.8 Tx/s
+Tue Oct 17 16:09:20 IST 2017 Starting new experiment from config: (1) 220Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 22 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only 15localWorkers'
+Tue Oct 17 16:17:38 IST 2017 Finished experiment 62. Approx input rate: 216.5 Tx/s
+Tue Oct 17 16:17:38 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "enable_proxy; fabric; git checkout parallel_vscc_only; git pull; make peer orderer;" & done; wait'
+Tue Oct 17 16:17:51 IST 2017 Evaluating '$ for i in peer{0..7}; do ssh $i "echo 15 > parallelVSCCWorkerCount.txt" & done; wait'
+Tue Oct 17 16:17:56 IST 2017 Starting new experiment from config: (1) 200Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 20 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really15GlobalWorkers'
+Tue Oct 17 16:24:02 IST 2017 Finished experiment 63. Approx input rate: 198.0 Tx/s
+Tue Oct 17 16:24:06 IST 2017 Starting new experiment from config: (1) 220Tx/s, Batch-30, open system, 2-Endorsers, 4-Channels - Full: '10 22 1 30 2 4 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really15GlobalWorkers'
+Tue Oct 17 16:30:14 IST 2017 Finished experiment 64. Approx input rate: 216.2 Tx/s
+Tue Oct 17 16:30:18 IST 2017 Starting new experiment from config: (1) 200Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 20 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really15GlobalWorkers'
+Tue Oct 17 16:38:38 IST 2017 Finished experiment 65. Approx input rate: 197.4 Tx/s
+Tue Oct 17 16:38:43 IST 2017 Starting new experiment from config: (1) 220Tx/s, Batch-30, open system, 2-Endorsers, 8-Channels - Full: '10 22 1 30 2 8 open 1 LevelDB 4vCPU writeRandom VSCC_Only Really15GlobalWorkers'
+Tue Oct 17 16:47:02 IST 2017 Finished experiment 66. Approx input rate: 216.0 Tx/s
+
+
+
+Thu Oct 19 11:13:58 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-1, open system, 3-Endorsers, 1-Channels - Full: '5 5 1 1 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 11:20:53 UTC 2017 Finished experiment 1. Approx input rate: 25.0 Tx/s
+Thu Oct 19 11:20:54 UTC 2017 Starting new experiment from config: (1) 125Tx/s, Batch-1, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 1 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 11:28:03 UTC 2017 Finished experiment 2. Approx input rate: 124.9 Tx/s
+Thu Oct 19 11:28:04 UTC 2017 Starting new experiment from config: (1) 225Tx/s, Batch-1, open system, 3-Endorsers, 1-Channels - Full: '25 9 1 1 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 11:35:18 UTC 2017 Finished experiment 3. Approx input rate: 224.2 Tx/s
+Thu Oct 19 11:35:20 UTC 2017 Starting new experiment from config: (1) 325Tx/s, Batch-1, open system, 3-Endorsers, 1-Channels - Full: '25 13 1 1 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 11:42:38 UTC 2017 Finished experiment 4. Approx input rate: 326.4 Tx/s
+Thu Oct 19 11:42:40 UTC 2017 Starting new experiment from config: (1) 425Tx/s, Batch-1, open system, 3-Endorsers, 1-Channels - Full: '25 17 1 1 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 12:01:05 UTC 2017 Finished experiment 5. Approx input rate: 426.5 Tx/s
+Thu Oct 19 12:01:07 UTC 2017 Starting new experiment from config: (1) 525Tx/s, Batch-1, open system, 3-Endorsers, 1-Channels - Full: '25 21 1 1 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 12:08:27 UTC 2017 Finished experiment 6. Approx input rate: 523.9 Tx/s
+Thu Oct 19 12:08:29 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '5 5 1 10 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 12:15:37 UTC 2017 Finished experiment 7. Approx input rate: 25.0 Tx/s
+Thu Oct 19 12:15:37 UTC 2017 Starting new experiment from config: (1) 125Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 10 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 12:22:43 UTC 2017 Finished experiment 8. Approx input rate: 124.9 Tx/s
+Thu Oct 19 12:22:44 UTC 2017 Starting new experiment from config: (1) 225Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 9 1 10 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 12:29:52 UTC 2017 Finished experiment 9. Approx input rate: 224.2 Tx/s
+Thu Oct 19 12:29:53 UTC 2017 Starting new experiment from config: (1) 325Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 13 1 10 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 12:37:04 UTC 2017 Finished experiment 10. Approx input rate: 326.4 Tx/s
+Thu Oct 19 12:37:05 UTC 2017 Starting new experiment from config: (1) 425Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 17 1 10 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 12:44:18 UTC 2017 Finished experiment 11. Approx input rate: 426.6 Tx/s
+Thu Oct 19 12:44:19 UTC 2017 Starting new experiment from config: (1) 525Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 21 1 10 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 12:51:34 UTC 2017 Finished experiment 12. Approx input rate: 524.9 Tx/s
+Thu Oct 19 12:51:35 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 5 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 12:58:42 UTC 2017 Finished experiment 13. Approx input rate: 25.0 Tx/s
+Thu Oct 19 12:58:42 UTC 2017 Starting new experiment from config: (1) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 13:05:48 UTC 2017 Finished experiment 14. Approx input rate: 124.9 Tx/s
+Thu Oct 19 13:05:48 UTC 2017 Starting new experiment from config: (1) 225Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 9 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 13:12:56 UTC 2017 Finished experiment 15. Approx input rate: 224.2 Tx/s
+Thu Oct 19 13:12:57 UTC 2017 Starting new experiment from config: (1) 325Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 13 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 13:20:08 UTC 2017 Finished experiment 16. Approx input rate: 327.0 Tx/s
+Thu Oct 19 13:20:08 UTC 2017 Starting new experiment from config: (1) 425Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 17 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 13:27:22 UTC 2017 Finished experiment 17. Approx input rate: 426.8 Tx/s
+Thu Oct 19 13:27:22 UTC 2017 Starting new experiment from config: (1) 525Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 21 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 13:34:37 UTC 2017 Finished experiment 18. Approx input rate: 525.0 Tx/s
+Thu Oct 19 13:34:37 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '5 5 1 50 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 13:41:45 UTC 2017 Finished experiment 19. Approx input rate: 25.0 Tx/s
+Thu Oct 19 13:41:45 UTC 2017 Starting new experiment from config: (1) 125Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 50 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 13:48:51 UTC 2017 Finished experiment 20. Approx input rate: 124.9 Tx/s
+Thu Oct 19 13:48:51 UTC 2017 Starting new experiment from config: (1) 225Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 9 1 50 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 13:55:59 UTC 2017 Finished experiment 21. Approx input rate: 224.4 Tx/s
+Thu Oct 19 13:56:00 UTC 2017 Starting new experiment from config: (1) 325Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 13 1 50 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 14:03:10 UTC 2017 Finished experiment 22. Approx input rate: 326.7 Tx/s
+Thu Oct 19 14:03:10 UTC 2017 Starting new experiment from config: (1) 425Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 17 1 50 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 14:10:23 UTC 2017 Finished experiment 23. Approx input rate: 426.7 Tx/s
+Thu Oct 19 14:10:24 UTC 2017 Starting new experiment from config: (1) 525Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 21 1 50 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 14:17:38 UTC 2017 Finished experiment 24. Approx input rate: 524.9 Tx/s
+Thu Oct 19 14:17:38 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '5 5 1 100 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 14:24:46 UTC 2017 Finished experiment 25. Approx input rate: 25.0 Tx/s
+Thu Oct 19 14:24:46 UTC 2017 Starting new experiment from config: (1) 125Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 100 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 14:31:52 UTC 2017 Finished experiment 26. Approx input rate: 124.8 Tx/s
+Thu Oct 19 14:31:53 UTC 2017 Starting new experiment from config: (1) 225Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 9 1 100 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 14:39:01 UTC 2017 Finished experiment 27. Approx input rate: 224.6 Tx/s
+Thu Oct 19 14:39:02 UTC 2017 Starting new experiment from config: (1) 325Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 13 1 100 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 14:46:12 UTC 2017 Finished experiment 28. Approx input rate: 326.6 Tx/s
+Thu Oct 19 14:46:13 UTC 2017 Starting new experiment from config: (1) 425Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 17 1 100 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 14:53:25 UTC 2017 Finished experiment 29. Approx input rate: 427.1 Tx/s
+Thu Oct 19 14:53:25 UTC 2017 Starting new experiment from config: (1) 525Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 21 1 100 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 15:00:39 UTC 2017 Finished experiment 30. Approx input rate: 525.1 Tx/s
+Thu Oct 19 15:00:40 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '5 5 1 200 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 15:07:47 UTC 2017 Finished experiment 31. Approx input rate: 25.0 Tx/s
+Thu Oct 19 15:07:47 UTC 2017 Starting new experiment from config: (1) 125Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 200 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 15:14:53 UTC 2017 Finished experiment 32. Approx input rate: 124.8 Tx/s
+Thu Oct 19 15:14:54 UTC 2017 Starting new experiment from config: (1) 225Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 9 1 200 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 15:22:02 UTC 2017 Finished experiment 33. Approx input rate: 224.5 Tx/s
+Thu Oct 19 15:22:02 UTC 2017 Starting new experiment from config: (1) 325Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 13 1 200 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 15:29:13 UTC 2017 Finished experiment 34. Approx input rate: 326.7 Tx/s
+Thu Oct 19 15:29:13 UTC 2017 Starting new experiment from config: (1) 425Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 17 1 200 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 15:36:26 UTC 2017 Finished experiment 35. Approx input rate: 426.8 Tx/s
+Thu Oct 19 15:36:26 UTC 2017 Starting new experiment from config: (1) 525Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 21 1 200 3 1 open 1 LevelDB 32vCPU writeRandom MSP_OPT_ONLY Paper'
+Thu Oct 19 15:43:40 UTC 2017 Finished experiment 36. Approx input rate: 525.1 Tx/s
+
+
+## Normal Experiments
+
+Thu Oct 19 16:53:24 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make;' & done; wait;'
+Thu Oct 19 16:56:19 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-1, open system, 3-Endorsers, 1-Channels - Full: '25 1 1 1 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 17:03:28 UTC 2017 Finished experiment 37. Approx input rate: 25.0 Tx/s
+Thu Oct 19 17:03:29 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-1, open system, 3-Endorsers, 1-Channels - Full: '25 2 1 1 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 17:10:37 UTC 2017 Finished experiment 38. Approx input rate: 50.0 Tx/s
+Thu Oct 19 17:10:37 UTC 2017 Starting new experiment from config: (1) 75Tx/s, Batch-1, open system, 3-Endorsers, 1-Channels - Full: '25 3 1 1 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 17:17:45 UTC 2017 Finished experiment 39. Approx input rate: 75.1 Tx/s
+Thu Oct 19 17:17:45 UTC 2017 Starting new experiment from config: (1) 100Tx/s, Batch-1, open system, 3-Endorsers, 1-Channels - Full: '25 4 1 1 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 17:20:11 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make;' & done; wait;'
+Thu Oct 19 17:20:45 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 1 1 10 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 17:27:51 UTC 2017 Finished experiment 40. Approx input rate: 25.0 Tx/s
+Thu Oct 19 17:27:52 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 2 1 10 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 17:34:57 UTC 2017 Finished experiment 41. Approx input rate: 50.0 Tx/s
+Thu Oct 19 17:34:58 UTC 2017 Starting new experiment from config: (1) 75Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 3 1 10 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 17:42:04 UTC 2017 Finished experiment 42. Approx input rate: 75.1 Tx/s
+Thu Oct 19 17:42:04 UTC 2017 Starting new experiment from config: (1) 100Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 4 1 10 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 17:49:11 UTC 2017 Finished experiment 43. Approx input rate: 100.0 Tx/s
+Thu Oct 19 17:49:12 UTC 2017 Starting new experiment from config: (1) 125Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 10 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 17:56:21 UTC 2017 Finished experiment 44. Approx input rate: 125.0 Tx/s
+Thu Oct 19 17:56:21 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 6 1 10 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 18:03:30 UTC 2017 Finished experiment 45. Approx input rate: 150.2 Tx/s
+Thu Oct 19 18:03:30 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-10, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 10 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 18:10:39 UTC 2017 Finished experiment 46. Approx input rate: 175.8 Tx/s
+Thu Oct 19 18:10:39 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 1 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 18:17:46 UTC 2017 Finished experiment 47. Approx input rate: 25.0 Tx/s
+Thu Oct 19 18:17:47 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 2 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 18:24:52 UTC 2017 Finished experiment 48. Approx input rate: 50.0 Tx/s
+Thu Oct 19 18:24:52 UTC 2017 Starting new experiment from config: (1) 75Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 3 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 18:31:59 UTC 2017 Finished experiment 49. Approx input rate: 75.1 Tx/s
+Thu Oct 19 18:31:59 UTC 2017 Starting new experiment from config: (1) 100Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 4 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 18:39:05 UTC 2017 Finished experiment 50. Approx input rate: 99.9 Tx/s
+Thu Oct 19 18:39:06 UTC 2017 Starting new experiment from config: (1) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 18:46:13 UTC 2017 Finished experiment 51. Approx input rate: 124.9 Tx/s
+Thu Oct 19 18:46:13 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 6 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 18:53:21 UTC 2017 Finished experiment 52. Approx input rate: 150.3 Tx/s
+Thu Oct 19 18:53:21 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 19:00:30 UTC 2017 Finished experiment 53. Approx input rate: 175.7 Tx/s
+Thu Oct 19 19:00:30 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 1 1 50 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 19:07:36 UTC 2017 Finished experiment 54. Approx input rate: 25.0 Tx/s
+Thu Oct 19 19:07:37 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 2 1 50 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 19:14:42 UTC 2017 Finished experiment 55. Approx input rate: 50.0 Tx/s
+Thu Oct 19 19:14:43 UTC 2017 Starting new experiment from config: (1) 75Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 3 1 50 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 19:21:48 UTC 2017 Finished experiment 56. Approx input rate: 75.1 Tx/s
+Thu Oct 19 19:21:49 UTC 2017 Starting new experiment from config: (1) 100Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 4 1 50 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 19:28:55 UTC 2017 Finished experiment 57. Approx input rate: 99.9 Tx/s
+Thu Oct 19 19:28:55 UTC 2017 Starting new experiment from config: (1) 125Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 50 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 19:36:03 UTC 2017 Finished experiment 58. Approx input rate: 124.9 Tx/s
+Thu Oct 19 19:36:03 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 6 1 50 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 19:43:10 UTC 2017 Finished experiment 59. Approx input rate: 150.4 Tx/s
+Thu Oct 19 19:43:11 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-50, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 50 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 19:50:19 UTC 2017 Finished experiment 60. Approx input rate: 175.8 Tx/s
+Thu Oct 19 19:50:19 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 1 1 100 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 19:57:26 UTC 2017 Finished experiment 61. Approx input rate: 25.0 Tx/s
+Thu Oct 19 19:57:26 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 2 1 100 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 20:04:32 UTC 2017 Finished experiment 62. Approx input rate: 50.0 Tx/s
+Thu Oct 19 20:04:33 UTC 2017 Starting new experiment from config: (1) 75Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 3 1 100 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 20:11:38 UTC 2017 Finished experiment 63. Approx input rate: 75.0 Tx/s
+Thu Oct 19 20:11:39 UTC 2017 Starting new experiment from config: (1) 100Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 4 1 100 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 20:18:45 UTC 2017 Finished experiment 64. Approx input rate: 99.9 Tx/s
+Thu Oct 19 20:18:45 UTC 2017 Starting new experiment from config: (1) 125Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 100 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 20:25:52 UTC 2017 Finished experiment 65. Approx input rate: 124.8 Tx/s
+Thu Oct 19 20:25:53 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 6 1 100 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 20:33:00 UTC 2017 Finished experiment 66. Approx input rate: 150.4 Tx/s
+Thu Oct 19 20:33:01 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-100, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 100 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 20:40:09 UTC 2017 Finished experiment 67. Approx input rate: 175.8 Tx/s
+Thu Oct 19 20:40:09 UTC 2017 Starting new experiment from config: (1) 25Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 1 1 200 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 20:47:15 UTC 2017 Finished experiment 68. Approx input rate: 25.0 Tx/s
+Thu Oct 19 20:47:16 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 2 1 200 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 20:54:21 UTC 2017 Finished experiment 69. Approx input rate: 50.0 Tx/s
+Thu Oct 19 20:54:22 UTC 2017 Starting new experiment from config: (1) 75Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 3 1 200 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 21:01:28 UTC 2017 Finished experiment 70. Approx input rate: 75.0 Tx/s
+Thu Oct 19 21:01:28 UTC 2017 Starting new experiment from config: (1) 100Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 4 1 200 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 21:08:36 UTC 2017 Finished experiment 71. Approx input rate: 99.9 Tx/s
+Thu Oct 19 21:08:36 UTC 2017 Starting new experiment from config: (1) 125Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 200 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 21:15:43 UTC 2017 Finished experiment 72. Approx input rate: 124.8 Tx/s
+Thu Oct 19 21:15:43 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 6 1 200 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 21:22:51 UTC 2017 Finished experiment 73. Approx input rate: 150.4 Tx/s
+Thu Oct 19 21:22:51 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-200, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 200 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Oct 19 21:29:59 UTC 2017 Finished experiment 74. Approx input rate: 175.8 Tx/s
+
+## Endorsement policy experiments
+Fri Oct 20 03:58:47 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make;' & done; wait;'
+Fri Oct 20 03:59:55 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 1-Endorsers, 1-Channels - Full: '25 6 1 30 1 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Fri Oct 20 04:07:04 UTC 2017 Finished experiment 75. Approx input rate: 150.4 Tx/s
+Fri Oct 20 04:07:05 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '25 6 1 30 2 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Fri Oct 20 04:14:12 UTC 2017 Finished experiment 76. Approx input rate: 150.3 Tx/s
+Fri Oct 20 04:14:13 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 6 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Fri Oct 20 04:21:21 UTC 2017 Finished experiment 77. Approx input rate: 150.3 Tx/s
+Fri Oct 20 04:21:21 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 4-Endorsers, 1-Channels - Full: '25 6 1 30 4 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Fri Oct 20 04:28:29 UTC 2017 Finished experiment 78. Approx input rate: 150.5 Tx/s
+Fri Oct 20 06:51:23 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make;' & done; wait;'
+Fri Oct 20 07:10:22 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make;' & done; wait;'
+
+Missing logs for experiments 83-86. Deleted accidentally. They're 175tx/s for policies 1,2,3,4
+
+Fri Oct 20 10:33:37 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make;' & done; wait;'
+Fri Oct 20 10:34:10 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 1s-Endorsers, 1-Channels - Full: '25 6 1 30 1s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 10:41:17 UTC 2017 Finished experiment 89. Approx input rate: 150.3 Tx/s
+Fri Oct 20 10:41:18 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 2s-Endorsers, 1-Channels - Full: '25 6 1 30 2s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 10:48:25 UTC 2017 Finished experiment 90. Approx input rate: 150.4 Tx/s
+Fri Oct 20 10:48:25 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 3s-Endorsers, 1-Channels - Full: '25 6 1 30 3s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 10:55:33 UTC 2017 Finished experiment 91. Approx input rate: 150.5 Tx/s
+Fri Oct 20 10:55:33 UTC 2017 Starting new experiment from config: (1) 150Tx/s, Batch-30, open system, 4s-Endorsers, 1-Channels - Full: '25 6 1 30 4s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 11:02:41 UTC 2017 Finished experiment 92. Approx input rate: 150.5 Tx/s
+Fri Oct 20 11:02:41 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-30, open system, 1s-Endorsers, 1-Channels - Full: '25 7 1 30 1s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 11:09:49 UTC 2017 Finished experiment 93. Approx input rate: 175.8 Tx/s
+Fri Oct 20 11:09:49 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-30, open system, 2s-Endorsers, 1-Channels - Full: '25 7 1 30 2s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 11:16:58 UTC 2017 Finished experiment 94. Approx input rate: 175.8 Tx/s
+Fri Oct 20 11:16:58 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-30, open system, 3s-Endorsers, 1-Channels - Full: '25 7 1 30 3s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 11:24:07 UTC 2017 Finished experiment 95. Approx input rate: 175.8 Tx/s
+Fri Oct 20 11:24:08 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-30, open system, 4s-Endorsers, 1-Channels - Full: '25 7 1 30 4s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 11:31:16 UTC 2017 Finished experiment 96. Approx input rate: 175.8 Tx/s
+Fri Oct 20 13:13:27 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make;' & done; wait;'
+Fri Oct 20 13:14:00 UTC 2017 Starting new experiment from config: (1) 200Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '25 8 1 30 2 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 13:21:09 UTC 2017 Finished experiment 97. Approx input rate: 199.8 Tx/s
+Fri Oct 20 13:21:09 UTC 2017 Starting new experiment from config: (1) 200Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 8 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 13:28:17 UTC 2017 Finished experiment 98. Approx input rate: 199.8 Tx/s
+Fri Oct 20 13:28:18 UTC 2017 Starting new experiment from config: (1) 250Tx/s, Batch-30, open system, 1s-Endorsers, 1-Channels - Full: '25 10 1 30 1s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 13:35:27 UTC 2017 Finished experiment 99. Approx input rate: 249.6 Tx/s
+Fri Oct 20 13:35:28 UTC 2017 Starting new experiment from config: (1) 250Tx/s, Batch-30, open system, 2s-Endorsers, 1-Channels - Full: '25 10 1 30 2s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 13:42:37 UTC 2017 Finished experiment 100. Approx input rate: 249.8 Tx/s
+Fri Oct 20 13:42:38 UTC 2017 Starting new experiment from config: (1) 250Tx/s, Batch-30, open system, 3s-Endorsers, 1-Channels - Full: '25 10 1 30 3s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 13:49:49 UTC 2017 Finished experiment 101. Approx input rate: 249.8 Tx/s
+Fri Oct 20 13:49:49 UTC 2017 Starting new experiment from config: (1) 250Tx/s, Batch-30, open system, 4s-Endorsers, 1-Channels - Full: '25 10 1 30 4s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Fri Oct 20 13:56:59 UTC 2017 Finished experiment 102. Approx input rate: 249.8 Tx/s
+
+Fri Oct 20 15:24:38 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make;' & done; wait;'
+Fri Oct 20 15:25:11 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Fri Oct 20 15:35:38 UTC 2017 Finished experiment 103. Approx input rate: 149.9 Tx/s
+Fri Oct 20 15:35:38 UTC 2017 Starting new experiment from config: (1) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Fri Oct 20 15:46:04 UTC 2017 Finished experiment 104. Approx input rate: 149.9 Tx/s
+Fri Oct 20 15:46:05 UTC 2017 Starting new experiment from config: (1) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Fri Oct 20 15:56:31 UTC 2017 Finished experiment 105. Approx input rate: 149.9 Tx/s
+Fri Oct 20 15:56:31 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Fri Oct 20 16:06:58 UTC 2017 Finished experiment 106. Approx input rate: 149.9 Tx/s
+Fri Oct 20 16:06:58 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Fri Oct 20 16:17:25 UTC 2017 Finished experiment 107. Approx input rate: 149.9 Tx/s
+Fri Oct 20 16:17:25 UTC 2017 Starting new experiment from config: (1) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Fri Oct 20 16:27:51 UTC 2017 Finished experiment 108. Approx input rate: 149.9 Tx/s
+Fri Oct 20 16:27:52 UTC 2017 Starting new experiment from config: (1) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Fri Oct 20 16:38:19 UTC 2017 Finished experiment 109. Approx input rate: 149.9 Tx/s
+Fri Oct 20 16:38:20 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Fri Oct 20 16:48:46 UTC 2017 Finished experiment 110. Approx input rate: 149.9 Tx/s
+Sat Oct 21 05:16:43 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make;' & done; wait;'
+Sat Oct 21 05:28:11 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make;' & done; wait;'
+Sat Oct 21 05:28:30 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 05:31:14 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Oct 21 05:31:29 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 05:35:52 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Oct 21 05:35:58 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 06:26:48 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 06:54:10 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 06:54:29 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 06:54:48 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Oct 21 06:54:54 UTC 2017 Starting new experiment from config: (1) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 07:01:51 UTC 2017 Finished experiment 111. Approx input rate: 175.8 Tx/s
+Sat Oct 21 07:01:52 UTC 2017 Starting new experiment from config: (1) 375Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 15 1 30 3 2 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 07:09:41 UTC 2017 Finished experiment 112. Approx input rate: 375.8 Tx/s
+Sat Oct 21 07:09:42 UTC 2017 Starting new experiment from config: (1) 750Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 30 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 07:18:41 UTC 2017 Finished experiment 113. Approx input rate: 742.6 Tx/s
+Sat Oct 21 07:18:42 UTC 2017 Starting new experiment from config: (1) 1500Tx/s, Batch-30, open system, 3-Endorsers, 8-Channels - Full: '50 30 1 30 3 8 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 07:30:07 UTC 2017 Finished experiment 114. Approx input rate: 1393.4 Tx/s
+Sat Oct 21 08:07:55 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Oct 21 08:08:01 UTC 2017 Starting new experiment from config: (1) 2200Tx/s, Batch-30, open system, 3-Endorsers, 16-Channels - Full: '40 55 1 30 3 16 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 08:23:58 UTC 2017 Finished experiment 115. Approx input rate: 1875.9 Tx/s
+
+
+
+
+Sat Oct 21 08:41:29 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Oct 21 08:41:35 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+
+
+Sat Oct 21 08:42:33 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Oct 21 08:42:39 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 08:49:45 UTC 2017 Finished experiment 116. Approx input rate: 16.4 Tx/s
+Sat Oct 21 08:49:46 UTC 2017 Starting new experiment from config: (1) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 08:56:51 UTC 2017 Finished experiment 117. Approx input rate: 24.6 Tx/s
+Sat Oct 21 08:56:51 UTC 2017 Starting new experiment from config: (1) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 09:03:57 UTC 2017 Finished experiment 118. Approx input rate: 32.7 Tx/s
+Sat Oct 21 09:03:57 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 09:11:03 UTC 2017 Finished experiment 119. Approx input rate: 40.8 Tx/s
+Sat Oct 21 09:11:03 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 09:18:08 UTC 2017 Finished experiment 120. Approx input rate: 13.4 Tx/s
+Sat Oct 21 09:18:09 UTC 2017 Starting new experiment from config: (1) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 09:25:14 UTC 2017 Finished experiment 121. Approx input rate: 20.1 Tx/s
+Sat Oct 21 09:25:15 UTC 2017 Starting new experiment from config: (1) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 09:32:20 UTC 2017 Finished experiment 122. Approx input rate: 26.8 Tx/s
+Sat Oct 21 09:32:21 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 09:39:26 UTC 2017 Finished experiment 123. Approx input rate: 33.4 Tx/s
+
+
+Sat Oct 21 10:50:20 UTC 2017 Starting new experiment from config: (1) 1400Tx/s, Batch-30, open system, 3-Endorsers, 16-Channels - Full: '40 35 1 30 3 16 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 11:06:08 UTC 2017 Finished experiment 124. Approx input rate: 1309.9 Tx/s
+Sat Oct 21 11:06:10 UTC 2017 Starting new experiment from config: (1) 1400Tx/s, Batch-30, open system, 3-Endorsers, 12-Channels - Full: '40 35 1 30 3 12 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 11:19:48 UTC 2017 Finished experiment 125. Approx input rate: 1306.6 Tx/s
+
+
+Sat Oct 21 11:24:59 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Oct 21 11:25:06 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 11:34:18 UTC 2017 Finished experiment 126. Approx input rate: 0.0 Tx/s
+Sat Oct 21 11:34:18 UTC 2017 Starting new experiment from config: (1) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+
+
+Sat Oct 21 11:38:54 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Oct 21 11:39:00 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 11:46:06 UTC 2017 Finished experiment 127. Approx input rate: 16.4 Tx/s
+Sat Oct 21 11:46:07 UTC 2017 Starting new experiment from config: (1) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 11:53:13 UTC 2017 Finished experiment 128. Approx input rate: 24.6 Tx/s
+Sat Oct 21 11:53:13 UTC 2017 Starting new experiment from config: (1) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 12:00:19 UTC 2017 Finished experiment 129. Approx input rate: 32.7 Tx/s
+Sat Oct 21 12:00:19 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 LevelDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 12:07:26 UTC 2017 Finished experiment 130. Approx input rate: 40.8 Tx/s
+Sat Oct 21 12:07:27 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 12:14:32 UTC 2017 Finished experiment 131. Approx input rate: 13.4 Tx/s
+Sat Oct 21 12:14:32 UTC 2017 Starting new experiment from config: (1) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 12:21:39 UTC 2017 Finished experiment 132. Approx input rate: 20.2 Tx/s
+Sat Oct 21 12:21:39 UTC 2017 Starting new experiment from config: (1) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 12:28:45 UTC 2017 Finished experiment 133. Approx input rate: 26.7 Tx/s
+Sat Oct 21 12:28:46 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys NO_OPT LevelVsCouch'
+Sat Oct 21 12:35:52 UTC 2017 Finished experiment 134. Approx input rate: 33.3 Tx/s
+
+
+Sat Oct 21 14:58:16 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Oct 21 14:58:24 UTC 2017 Starting new experiment from config: (1) 156Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '26 6 1 30 3 1 open 1 LevelDB 2vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 15:06:02 UTC 2017 Finished experiment 135. Approx input rate: 156.4 Tx/s
+Sat Oct 21 15:06:03 UTC 2017 Starting new experiment from config: (1) 156Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '26 6 1 30 3 1 open 1 LevelDB 4vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 15:13:40 UTC 2017 Finished experiment 136. Approx input rate: 156.5 Tx/s
+Sat Oct 21 15:13:41 UTC 2017 Starting new experiment from config: (1) 156Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '26 6 1 30 3 1 open 1 LevelDB 8vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 15:21:17 UTC 2017 Finished experiment 137. Approx input rate: 156.5 Tx/s
+
+___BAD____Sat Oct 21 15:21:19 UTC 2017 Starting new experiment from config: (1) 156Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '26 6 1 30 3 1 open 1 LevelDB 16vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+___BAD____Sat Oct 21 15:29:10 UTC 2017 Finished experiment 138. Approx input rate: 156.0 Tx/s
+
+Sat Oct 21 15:29:11 UTC 2017 Starting new experiment from config: (1) 300Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 12 1 30 3 2 open 1 LevelDB 2vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 15:37:25 UTC 2017 Finished experiment 139. Approx input rate: 298.8 Tx/s
+Sat Oct 21 15:37:26 UTC 2017 Starting new experiment from config: (1) 300Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 12 1 30 3 2 open 1 LevelDB 4vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 15:45:39 UTC 2017 Finished experiment 140. Approx input rate: 299.3 Tx/s
+Sat Oct 21 15:45:40 UTC 2017 Starting new experiment from config: (1) 300Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 12 1 30 3 2 open 1 LevelDB 8vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 15:53:53 UTC 2017 Finished experiment 141. Approx input rate: 299.3 Tx/s
+
+___BAD____Sat Oct 21 15:53:56 UTC 2017 Starting new experiment from config: (1) 300Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 12 1 30 3 2 open 1 LevelDB 16vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+___BAD____Sat Oct 21 16:02:16 UTC 2017 Finished experiment 142. Approx input rate: 56.0 Tx/s
+
+Sat Oct 21 16:02:17 UTC 2017 Starting new experiment from config: (1) 575Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 23 1 30 3 4 open 1 LevelDB 2vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 16:11:35 UTC 2017 Finished experiment 143. Approx input rate: 118.9 Tx/s
+Sat Oct 21 16:11:36 UTC 2017 Starting new experiment from config: (1) 575Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 23 1 30 3 4 open 1 LevelDB 4vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 16:20:59 UTC 2017 Finished experiment 144. Approx input rate: 571.7 Tx/s
+Sat Oct 21 16:21:00 UTC 2017 Starting new experiment from config: (1) 575Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 23 1 30 3 4 open 1 LevelDB 8vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 16:30:25 UTC 2017 Finished experiment 145. Approx input rate: 572.9 Tx/s
+
+___BAD____Sat Oct 21 16:30:28 UTC 2017 Starting new experiment from config: (1) 575Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 23 1 30 3 4 open 1 LevelDB 16vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+___BAD____Sat Oct 21 16:39:54 UTC 2017 Finished experiment 146. Approx input rate: 6.2 Tx/s
+
+
+
+Sat Oct 21 19:26:21 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Oct 21 19:26:28 UTC 2017 Starting new experiment from config: (1) 156Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '26 6 1 30 3 1 open 1 LevelDB 16vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 19:34:05 UTC 2017 Finished experiment 146. Approx input rate: 156.4 Tx/s
+Sat Oct 21 19:34:07 UTC 2017 Starting new experiment from config: (1) 156Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '26 6 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 19:41:43 UTC 2017 Finished experiment 147. Approx input rate: 156.4 Tx/s
+Sat Oct 21 19:41:46 UTC 2017 Starting new experiment from config: (1) 300Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 12 1 30 3 2 open 1 LevelDB 16vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 19:49:59 UTC 2017 Finished experiment 148. Approx input rate: 299.2 Tx/s
+Sat Oct 21 19:50:01 UTC 2017 Starting new experiment from config: (1) 300Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 12 1 30 3 2 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 19:58:15 UTC 2017 Finished experiment 149. Approx input rate: 299.4 Tx/s
+Sat Oct 21 19:58:18 UTC 2017 Starting new experiment from config: (1) 575Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 23 1 30 3 4 open 1 LevelDB 16vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 20:07:42 UTC 2017 Finished experiment 150. Approx input rate: 573.1 Tx/s
+Sat Oct 21 20:07:44 UTC 2017 Starting new experiment from config: (1) 575Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 23 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Sat Oct 21 20:17:12 UTC 2017 Finished experiment 151. Approx input rate: 573.1 Tx/s
+
+
+Sat Oct 21 22:17:26 UTC 2017 Starting new experiment from config: (1) 1600Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '40 40 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL_MSP_ON_ORDERER Paper'
+Sat Oct 21 22:27:03 UTC 2017 Finished experiment 152. Approx input rate: 1512.2 Tx/s
+Sat Oct 21 22:27:05 UTC 2017 Starting new experiment from config: (1) 1800Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '45 40 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL_MSP_ON_ORDERER Paper'
+Sat Oct 21 22:36:42 UTC 2017 Finished experiment 153. Approx input rate: 1669.8 Tx/s
+
+
+Sat Oct 21 23:08:06 UTC 2017 Starting new experiment from config: (1) 1600Tx/s, Batch-30, open system, 3-Endorsers, 16-Channels - Full: '40 40 1 30 3 16 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL_MSP_ON_ORDERER Paper'
+Sat Oct 21 23:24:25 UTC 2017 Finished experiment 154. Approx input rate: 1484.7 Tx/s
+Sat Oct 21 23:24:28 UTC 2017 Starting new experiment from config: (1) 1800Tx/s, Batch-30, open system, 3-Endorsers, 16-Channels - Full: '45 40 1 30 3 16 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL_MSP_ON_ORDERER Paper'
+Sat Oct 21 23:40:49 UTC 2017 Finished experiment 155. Approx input rate: 1644.0 Tx/s
+
+
+Sun Oct 22 19:34:03 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout experimental_modifications; make peer orderer;' & done; wait;'
+Sun Oct 22 19:34:31 UTC 2017 Starting new experiment from config: (1) 1600Tx/s, Batch-30, open system, 3-Endorsers, 16-Channels - Full: '40 40 1 30 3 16 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL_MSP_ON_ORDERER Paper'
+Sun Oct 22 19:50:49 UTC 2017 Finished experiment 156. Approx input rate: 1475.2 Tx/s
+Sun Oct 22 19:50:51 UTC 2017 Starting new experiment from config: (1) 1800Tx/s, Batch-30, open system, 3-Endorsers, 16-Channels - Full: '45 40 1 30 3 16 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL_MSP_ON_ORDERER Paper'
+Sun Oct 22 20:07:12 UTC 2017 Finished experiment 157. Approx input rate: 1655.0 Tx/s
+
+
+Mon Oct 23 00:42:29 UTC 2017 Starting new experiment from config: (1) 208Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '26 8 1 30 3 1 open 1 LevelDB 2vCPU writeRandom PAR_VSCC Paper'
+Mon Oct 23 00:46:04 UTC 2017 Finished experiment 158. Approx input rate: 208.4 Tx/s
+Mon Oct 23 00:46:05 UTC 2017 Starting new experiment from config: (1) 260Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '26 10 1 30 3 1 open 1 LevelDB 2vCPU writeRandom PAR_VSCC Paper'
+Mon Oct 23 00:49:38 UTC 2017 Finished experiment 159. Approx input rate: 259.6 Tx/s
+
+
+Mon Oct 23 00:54:07 UTC 2017 Starting new experiment from config: (1) 300Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '30 10 1 30 3 1 open 1 LevelDB 2vCPU writeRandom PAR_VSCC_TEST Paper'
+Mon Oct 23 00:57:39 UTC 2017 Finished experiment 160. Approx input rate: 299.5 Tx/s
+
+
+Mon Oct 23 01:04:01 UTC 2017 Starting new experiment from config: (1) 400Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '40 10 1 30 3 1 open 1 LevelDB 2vCPU writeRandom PAR_VSCC_TEST Paper'
+Mon Oct 23 01:07:33 UTC 2017 Finished experiment 161. Approx input rate: 400.0 Tx/s
+
+
+Mon Oct 23 10:26:21 UTC 2017 Starting new experiment from config: (1) 480Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '40 12 1 30 3 1 open 1 LevelDB 2vCPU writeRandom PAR_VSCC_TEST Paper'
+Mon Oct 23 10:29:55 UTC 2017 Finished experiment 162. Approx input rate: 479.3 Tx/s
+
+
+Mon Oct 23 14:28:09 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout parallel_vscc_only; make peer orderer;' & done; wait;'
+Mon Oct 23 14:28:46 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 30 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Mon Oct 23 14:28:48 UTC 2017 Starting new experiment from config: (1) 575Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 23 1 30 3 1 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_VSCC_OPT_30_THREADS'
+Mon Oct 23 14:32:22 UTC 2017 Finished experiment 163. Approx input rate: 573.3 Tx/s
+Mon Oct 23 14:32:23 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Mon Oct 23 14:32:39 UTC 2017 Starting new experiment from config: (1) 575Tx/s, Batch-30, open system, 3-Endorsers, 30-Channels - Full: '25 23 1 30 3 30 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_NO_OPT_30_CHANS'
+Mon Oct 23 14:52:00 UTC 2017 Finished experiment 164. Approx input rate: 573.7 Tx/s
+
+
+Mon Oct 23 15:11:05 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout parallel_vscc_only; make peer orderer;' & done; wait;'
+Mon Oct 23 15:11:20 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 30 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Mon Oct 23 15:11:21 UTC 2017 Starting new experiment from config: (1) 1150Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 46 1 30 3 1 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_VSCC_OPT_30_THREADS'
+Mon Oct 23 15:14:59 UTC 2017 Finished experiment 165. Approx input rate: 1144.6 Tx/s
+Mon Oct 23 15:14:59 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Mon Oct 23 15:15:15 UTC 2017 Starting new experiment from config: (1) 1150Tx/s, Batch-30, open system, 3-Endorsers, 30-Channels - Full: '25 46 1 30 3 30 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_NO_OPT_30_CHANS'
+Mon Oct 23 15:34:39 UTC 2017 Finished experiment 166. Approx input rate: 1150.2 Tx/s
+
+
+Mon Oct 23 15:53:58 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout parallel_vscc_only; make peer orderer;' & done; wait;'
+Mon Oct 23 15:54:13 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 30 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Mon Oct 23 15:54:14 UTC 2017 Starting new experiment from config: (1) 875Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 35 1 30 3 1 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_VSCC_OPT_30_THREADS_REAL'
+Mon Oct 23 16:02:08 UTC 2017 Finished experiment 167. Approx input rate: 871.8 Tx/s
+Mon Oct 23 16:02:09 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Mon Oct 23 16:02:25 UTC 2017 Starting new experiment from config: (1) 1150Tx/s, Batch-30, open system, 3-Endorsers, 30-Channels - Full: '25 46 1 30 3 30 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_NO_OPT_30_CHANS_REAL'
+Mon Oct 23 16:26:15 UTC 2017 Finished experiment 168. Approx input rate: 1149.6 Tx/s
+
+
+Mon Oct 23 17:22:54 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout parallel_vscc_only; make peer orderer;' & done; wait;'
+
+
+Mon Oct 23 17:23:40 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout parallel_vscc_only; make peer orderer;' & done; wait;'
+Mon Oct 23 17:23:44 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 30 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Mon Oct 23 17:23:44 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 1 > /root/pipelinedValidateBlock_depth.txt' & done; wait;'
+Mon Oct 23 17:23:45 UTC 2017 Starting new experiment from config: (1) 875Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 35 1 30 3 1 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_VSCC_OPT_30_THREADS_REAL_PIPELINE=1'
+
+
+Mon Oct 23 17:24:31 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout pipelinedValAndCommit-parallelVSCC-CouchBulk-CacheCData; make peer orderer;' & done; wait;'
+Mon Oct 23 17:24:48 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 30 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Mon Oct 23 17:24:48 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 1 > /root/pipelinedValidateBlock_depth.txt' & done; wait;'
+Mon Oct 23 17:24:49 UTC 2017 Starting new experiment from config: (1) 875Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 35 1 30 3 1 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_VSCC_OPT_30_THREADS_REAL_PIPELINE=1'
+Mon Oct 23 17:29:18 UTC 2017 Finished experiment 169. Approx input rate: 871.6 Tx/s
+Mon Oct 23 17:29:18 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout pipelinedValAndCommit-parallelVSCC-CouchBulk-CacheCData; make peer orderer;' & done; wait;'
+Mon Oct 23 17:29:24 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 30 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Mon Oct 23 17:29:25 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 10 > /root/pipelinedValidateBlock_depth.txt' & done; wait;'
+Mon Oct 23 17:29:26 UTC 2017 Starting new experiment from config: (1) 875Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 35 1 30 3 1 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_VSCC_OPT_30_THREADS_PIPELINE=6'
+Mon Oct 23 17:34:04 UTC 2017 Finished experiment 170. Approx input rate: 871.6 Tx/s
+
+
+Tue Oct 24 03:55:04 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Tue Oct 24 03:55:21 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU ReadWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+
+
+Tue Oct 24 03:56:34 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Tue Oct 24 03:56:41 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Tue Oct 24 04:05:06 UTC 2017 Finished experiment 171. Approx input rate: 17.0 Tx/s
+Tue Oct 24 04:05:07 UTC 2017 Starting new experiment from config: (1) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Tue Oct 24 04:13:41 UTC 2017 Finished experiment 172. Approx input rate: 25.5 Tx/s
+Tue Oct 24 04:13:42 UTC 2017 Starting new experiment from config: (1) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Tue Oct 24 04:22:17 UTC 2017 Finished experiment 173. Approx input rate: 33.9 Tx/s
+Tue Oct 24 04:22:18 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Tue Oct 24 04:30:52 UTC 2017 Finished experiment 174. Approx input rate: 42.3 Tx/s
+Tue Oct 24 04:30:52 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout pipelined_vscc_and_commit_AND_couch_bulk_AND_cdata_cache; make peer orderer;' & done; wait;'
+Tue Oct 24 04:31:08 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 1 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Oct 24 04:31:09 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-1, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 1 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys SmallBlockCouchBulkOptOnly Paper'
+Tue Oct 24 04:39:46 UTC 2017 Finished experiment 175. Approx input rate: 7.7 Tx/s
+Tue Oct 24 04:39:47 UTC 2017 Starting new experiment from config: (1) 30Tx/s, Batch-1, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 1 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys SmallBlockCouchBulkOptOnly Paper'
+Tue Oct 24 04:48:25 UTC 2017 Finished experiment 176. Approx input rate: 15.5 Tx/s
+Tue Oct 24 04:48:26 UTC 2017 Starting new experiment from config: (1) 40Tx/s, Batch-1, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 1 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys SmallBlockCouchBulkOptOnly Paper'
+Tue Oct 24 04:57:03 UTC 2017 Finished experiment 177. Approx input rate: 20.6 Tx/s
+Tue Oct 24 04:57:04 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-1, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 1 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys SmallBlockCouchBulkOptOnly Paper'
+Tue Oct 24 05:05:41 UTC 2017 Finished experiment 178. Approx input rate: 25.8 Tx/s
+Tue Oct 24 05:05:41 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout pipelined_vscc_and_commit_AND_couch_bulk_AND_cdata_cache; make peer orderer;' & done; wait;'
+Tue Oct 24 05:05:47 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 10 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Oct 24 05:05:48 UTC 2017 Starting new experiment from config: (1) 20Tx/s, Batch-1, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 1 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys PipelineSmallBlockCouchBulkOptOnly Paper'
+Tue Oct 24 05:14:25 UTC 2017 Finished experiment 179. Approx input rate: 10.3 Tx/s
+Tue Oct 24 05:14:26 UTC 2017 Starting new experiment from config: (1) 30Tx/s, Batch-1, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 1 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys PipelineSmallBlockCouchBulkOptOnly Paper'
+Tue Oct 24 05:23:04 UTC 2017 Finished experiment 180. Approx input rate: 15.5 Tx/s
+Tue Oct 24 05:23:05 UTC 2017 Starting new experiment from config: (1) 40Tx/s, Batch-1, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 1 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys PipelineSmallBlockCouchBulkOptOnly Paper'
+Tue Oct 24 05:31:41 UTC 2017 Finished experiment 181. Approx input rate: 20.6 Tx/s
+Tue Oct 24 05:31:43 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-1, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 1 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys PipelineSmallBlockCouchBulkOptOnly Paper'
+Tue Oct 24 05:40:20 UTC 2017 Finished experiment 182. Approx input rate: 25.8 Tx/s
+Tue Oct 24 05:40:20 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Tue Oct 24 05:40:36 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Oct 24 05:40:37 UTC 2017 Starting new experiment from config: (1) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys VSCCCouchBulkOptOnlyPaper'
+Tue Oct 24 05:49:14 UTC 2017 Finished experiment 183. Approx input rate: 42.3 Tx/s
+Tue Oct 24 05:49:15 UTC 2017 Starting new experiment from config: (1) 75Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 15 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys VSCCCouchBulkOptOnlyPaper'
+Tue Oct 24 05:57:51 UTC 2017 Finished experiment 184. Approx input rate: 64.2 Tx/s
+Tue Oct 24 05:57:52 UTC 2017 Starting new experiment from config: (1) 100Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 20 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys VSCCCouchBulkOptOnlyPaper'
+Tue Oct 24 06:06:27 UTC 2017 Finished experiment 185. Approx input rate: 84.5 Tx/s
+
+
+Tue Oct 24 15:24:59 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; make peer orderer;' & done; wait;'
+Tue Oct 24 15:25:18 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Oct 24 15:25:18 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 10 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Oct 24 15:25:19 UTC 2017 Starting new experiment from config: (1) 960Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 30 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=10_TEST'
+Tue Oct 24 15:31:01 UTC 2017 Finished experiment 186. Approx input rate: 954.7 Tx/s
+Tue Oct 24 15:31:02 UTC 2017 Starting new experiment from config: (1) 160Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '20 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys MSP_PipelinedVSCCAndCommitAndBulk_PDepth=10_TEST'
+Tue Oct 24 15:36:36 UTC 2017 Finished experiment 187. Approx input rate: 110.7 Tx/s
+
+
+Tue Oct 24 15:41:33 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; make peer orderer;' & done; wait;'
+Tue Oct 24 15:41:38 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Oct 24 15:41:39 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 10 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Oct 24 15:41:40 UTC 2017 Starting new experiment from config: (1) 320Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '20 16 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys MSP_PipelinedVSCCAndCommitAndBulk_PDepth=10_TEST'
+Tue Oct 24 15:47:14 UTC 2017 Finished experiment 188. Approx input rate: 220.3 Tx/s
+Tue Oct 24 15:47:15 UTC 2017 Starting new experiment from config: (1) 400Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '20 20 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys MSP_PipelinedVSCCAndCommitAndBulk_PDepth=10_TEST'
+
+
+Tue Oct 24 20:27:38 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; make peer orderer;' & done; wait;'
+Tue Oct 24 20:27:50 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Oct 24 20:27:50 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 10 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Oct 24 20:27:51 UTC 2017 Starting new experiment from config: (1) 320Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '20 16 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys MSP_PipelinedVSCCAndCommitAndBulk_PDepth=10_TEST'
+Tue Oct 24 20:33:25 UTC 2017 Finished experiment 189. Approx input rate: 220.8 Tx/s
+Tue Oct 24 20:33:26 UTC 2017 Starting new experiment from config: (1) 400Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '20 20 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys MSP_PipelinedVSCCAndCommitAndBulk_PDepth=10_TEST'
+Tue Oct 24 20:39:01 UTC 2017 Finished experiment 190. Approx input rate: 275.8 Tx/s
+Tue Oct 24 20:39:02 UTC 2017 Starting new experiment from config: (1) 600Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '30 20 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys MSP_PipelinedVSCCAndCommitAndBulk_PDepth=10_TEST'
+Tue Oct 24 20:44:35 UTC 2017 Finished experiment 191. Approx input rate: 0.0 Tx/s
+
+
+Tue Oct 24 21:29:20 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; make peer orderer;' & done; wait;'
+Tue Oct 24 21:29:31 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Oct 24 21:29:31 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 10 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Oct 24 21:29:32 UTC 2017 Starting new experiment from config: (1) 320Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '20 16 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys MSP_PipelinedVSCCAndCommitAndBulk_PDepth=10_TEST_LOCKING_ON'
+Tue Oct 24 21:35:08 UTC 2017 Finished experiment 192. Approx input rate: 221.0 Tx/s
+Tue Oct 24 21:35:09 UTC 2017 Starting new experiment from config: (1) 400Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '20 20 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys MSP_PipelinedVSCCAndCommitAndBulk_PDepth=10_TEST_LOCKING_ON'
+Tue Oct 24 21:40:44 UTC 2017 Finished experiment 193. Approx input rate: 276.5 Tx/s
+
+
+Tue Oct 24 21:52:41 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; make peer orderer;' & done; wait;'
+Tue Oct 24 21:52:47 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Oct 24 21:52:47 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 1 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Oct 24 21:52:48 UTC 2017 Starting new experiment from config: (1) 320Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '20 16 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys MSP_PipelinedVSCCAndCommitAndBulk_PDepth=1_TEST_LOCKING_ON'
+Tue Oct 24 21:58:23 UTC 2017 Finished experiment 194. Approx input rate: 221.2 Tx/s
+
+
+Thu Nov 16 11:26:55 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Thu Nov 16 11:27:13 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Thu Nov 16 11:32:10 UTC 2017 Finished experiment 195. Approx input rate: 13.9 Tx/s
+Thu Nov 16 11:32:11 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Thu Nov 16 11:37:15 UTC 2017 Finished experiment 196. Approx input rate: 21.0 Tx/s
+Thu Nov 16 11:37:16 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Thu Nov 16 11:42:20 UTC 2017 Finished experiment 197. Approx input rate: 27.8 Tx/s
+Thu Nov 16 11:42:21 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Thu Nov 16 11:47:25 UTC 2017 Finished experiment 198. Approx input rate: 34.8 Tx/s
+
+
+Thu Nov 16 12:02:16 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+
+
+Thu Nov 16 12:03:02 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Thu Nov 16 12:03:06 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Thu Nov 16 12:08:10 UTC 2017 Finished experiment 195. Approx input rate: 13.9 Tx/s
+
+
+Thu Nov 16 12:12:50 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; git reset --hard HEAD^ ; make peer orderer;' & done; wait;'
+Thu Nov 16 12:13:03 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Thu Nov 16 12:18:07 UTC 2017 Finished experiment 195. Approx input rate: 13.9 Tx/s
+
+
+Thu Nov 16 12:26:45 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; git reset --hard HEAD^ ; make peer orderer;' & done; wait;'
+Thu Nov 16 12:26:57 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU RandomWrite CouchBulkOptOnly Paper'
+
+
+Thu Nov 16 12:29:48 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; git reset --hard HEAD^ ; make peer orderer;' & done; wait;'
+Thu Nov 16 12:30:00 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU WriteRandom CouchBulkOptOnly Paper'
+
+
+Thu Nov 16 12:44:09 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; git reset --hard HEAD^ ; make peer orderer;' & done; wait;'
+Thu Nov 16 12:44:21 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU writeRandom CouchBulkOptOnly Paper'
+
+
+Thu Nov 16 12:48:35 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; git reset --hard HEAD^ ; make peer orderer;' & done; wait;'
+Thu Nov 16 12:48:46 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Thu Nov 16 12:53:50 UTC 2017 Finished experiment 196. Approx input rate: 13.9 Tx/s
+
+
+Thu Nov 16 13:05:24 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; git reset --hard HEAD^ ; make peer orderer;' & done; wait;'
+Thu Nov 16 13:05:35 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+
+
+Sat Nov 18 11:29:28 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; git reset --hard HEAD^ ; make peer orderer;' & done; wait;'
+Sat Nov 18 11:29:40 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU writeRandom CouchBulkOptOnly Paper'
+
+
+Sat Nov 18 11:36:05 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout experimental_changes; make peer orderer;' & done; wait;'
+
+
+Sat Nov 18 11:37:10 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout experimental_modifications; make peer orderer;' & done; wait;'
+Sat Nov 18 11:37:40 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU writeRandom CouchBulkOptOnly Paper'
+
+
+Sat Nov 18 11:41:11 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout 5c7dbcf4823d5ed056f1cb799a162a8a03378358; make peer orderer;' & done; wait;'
+Sat Nov 18 11:41:42 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU writeRandom CouchBulkOptOnly Paper'
+
+
+Mon Nov 20 14:31:48 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout 5c7dbcf4823d5ed056f1cb799a162a8a03378358; make peer orderer;' & done; wait;'
+Mon Nov 20 14:31:54 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+
+
+Mon Nov 20 14:37:04 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout 5c7dbcf4823d5ed056f1cb799a162a8a03378358; make peer orderer;' & done; wait;'
+Mon Nov 20 14:37:11 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 20 14:42:15 UTC 2017 Finished experiment 195. Approx input rate: 13.9 Tx/s
+Mon Nov 20 14:42:15 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 20 14:47:19 UTC 2017 Finished experiment 196. Approx input rate: 13.9 Tx/s
+Mon Nov 20 14:47:20 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 20 14:52:23 UTC 2017 Finished experiment 197. Approx input rate: 13.9 Tx/s
+Mon Nov 20 14:52:24 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 20 14:57:28 UTC 2017 Finished experiment 198. Approx input rate: 13.9 Tx/s
+
+
+Mon Nov 20 15:10:45 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout 5c7dbcf4823d5ed056f1cb799a162a8a03378358; make peer orderer;' & done; wait;'
+Mon Nov 20 15:10:52 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 20 15:15:55 UTC 2017 Finished experiment 195. Approx input rate: 13.9 Tx/s
+
+
+Mon Nov 20 15:27:21 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout 5c7dbcf4823d5ed056f1cb799a162a8a03378358; make peer orderer;' & done; wait;'
+Mon Nov 20 15:27:27 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 20 15:32:32 UTC 2017 Finished experiment 196. Approx input rate: 13.9 Tx/s
+
+
+Mon Nov 20 15:42:05 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; git reset --hard HEAD^ ; make peer orderer;' & done; wait;'
+Mon Nov 20 15:42:25 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 20 15:47:29 UTC 2017 Finished experiment 197. Approx input rate: 13.9 Tx/s
+
+
+Mon Nov 20 15:48:52 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; git reset --hard HEAD^2 ; make peer orderer;' & done; wait;'
+
+
+Mon Nov 20 15:50:07 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; git reset --hard HEAD~2 ; make peer orderer;' & done; wait;'
+Mon Nov 20 15:50:18 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 20 15:55:22 UTC 2017 Finished experiment 198. Approx input rate: 13.9 Tx/s
+
+
+Thu Nov 23 14:08:17 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 14:08:33 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 14:10:46 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 14:10:52 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 14:44:31 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+
+
+Thu Nov 23 14:45:54 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 14:45:55 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 14:55:48 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 14:55:49 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 15:13:31 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 15:13:33 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 15:16:16 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 15:16:20 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 15:18:48 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 15:18:54 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 15:21:56 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 15:22:04 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 15:30:27 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 15:30:34 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 15:37:14 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 15:37:18 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 15:38:44 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 15:38:51 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 15:41:59 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 15:42:06 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+
+
+Thu Nov 23 15:45:50 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Thu Nov 23 15:45:56 UTC 2017 Starting new experiment from config: (195) 175Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 7 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT Paper'
+Thu Nov 23 15:51:01 UTC 2017 Finished experiment 198. Approx input rate: 176.0 Tx/s
+
+
+Sat Nov 25 12:57:17 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout parallel_vscc_only; make peer orderer;' & done; wait;'
+
+
+
+###################### VSCC Experiments redone, ignore 203 mostly ############################
+
+Sat Nov 25 12:57:43 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout parallel_vscc_only; make peer orderer;' & done; wait;'
+Sat Nov 25 12:57:46 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 30 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Sat Nov 25 12:57:47 UTC 2017 Starting new experiment from config: (195) 1150Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 46 1 30 3 1 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_VSCC_OPT_30_THREADS'
+Sat Nov 25 13:03:07 UTC 2017 Finished experiment 199. Approx input rate: 1148.6 Tx/s
+Sat Nov 25 13:03:07 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Nov 25 13:03:25 UTC 2017 Starting new experiment from config: (195) 1150Tx/s, Batch-30, open system, 3-Endorsers, 30-Channels - Full: '25 46 1 30 3 30 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_NO_OPT_30_CHANS'
+Sat Nov 25 13:24:33 UTC 2017 Finished experiment 200. Approx input rate: 1153.3 Tx/s
+Sat Nov 25 13:24:34 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout parallel_vscc_only; make peer orderer;' & done; wait;'
+Sat Nov 25 13:24:53 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 30 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Sat Nov 25 13:24:54 UTC 2017 Starting new experiment from config: (195) 875Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 35 1 30 3 1 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_VSCC_OPT_30_THREADS_REAL'
+Sat Nov 25 13:30:09 UTC 2017 Finished experiment 201. Approx input rate: 872.6 Tx/s
+Sat Nov 25 13:30:10 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Nov 25 13:30:27 UTC 2017 Starting new experiment from config: (195) 1150Tx/s, Batch-30, open system, 3-Endorsers, 30-Channels - Full: '25 46 1 30 3 30 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_NO_OPT_30_CHANS_REAL'
+Sat Nov 25 13:51:35 UTC 2017 Finished experiment 202. Approx input rate: 1153.5 Tx/s
+Sat Nov 25 13:51:36 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sat Nov 25 13:51:44 UTC 2017 Starting new experiment from config: (195) 1150Tx/s, Batch-30, open system, 3-Endorsers, 30-Channels - Full: '25 46 1 30 3 30 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_NO_OPT_30_CHANS_REAL'
+Sat Nov 25 14:32:06 UTC 2017 Finished experiment 203. Approx input rate: 1153.2 Tx/s
+
+
+#################### CouchDB Bulk experiments only #######################################
+
+
+
+########## Failed stuff starts #####
+
+Sun Nov 26 11:07:55 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Sun Nov 26 11:08:11 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 11:15:18 UTC 2017 Finished experiment 204. Approx input rate: 12.4 Tx/s
+Sun Nov 26 11:15:19 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 11:22:25 UTC 2017 Finished experiment 205. Approx input rate: 18.6 Tx/s
+Sun Nov 26 11:22:26 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 11:29:31 UTC 2017 Finished experiment 206. Approx input rate: 24.7 Tx/s
+Sun Nov 26 11:29:32 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 11:36:37 UTC 2017 Finished experiment 207. Approx input rate: 30.9 Tx/s
+Sun Nov 26 11:36:37 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Sun Nov 26 11:36:53 UTC 2017 Starting new experiment from config: (195) 1150Tx/s, Batch-30, open system, 3-Endorsers, 30-Channels - Full: '25 46 1 30 3 30 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_NO_OPT_30_CHANS_REAL'
+
+
+############ Failed stuff ends ############
+
+
+Sun Nov 26 17:29:45 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Sun Nov 26 17:29:51 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 17:37:11 UTC 2017 Finished experiment 208. Approx input rate: 12.4 Tx/s
+Sun Nov 26 17:37:12 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 17:44:17 UTC 2017 Finished experiment 209. Approx input rate: 18.6 Tx/s
+Sun Nov 26 17:44:18 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 17:51:24 UTC 2017 Finished experiment 210. Approx input rate: 24.7 Tx/s
+Sun Nov 26 17:51:25 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 17:58:30 UTC 2017 Finished experiment 211. Approx input rate: 30.9 Tx/s
+
+
+Sun Nov 26 18:39:08 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Sun Nov 26 18:39:14 UTC 2017 Starting new experiment from config: (195) 60Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 12 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 18:46:20 UTC 2017 Finished experiment 212. Approx input rate: 37.2 Tx/s
+Sun Nov 26 18:46:21 UTC 2017 Starting new experiment from config: (195) 70Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 14 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 18:53:27 UTC 2017 Finished experiment 213. Approx input rate: 43.3 Tx/s
+
+
+Sun Nov 26 19:03:47 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Sun Nov 26 19:03:53 UTC 2017 Starting new experiment from config: (195) 85Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 17 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 19:10:59 UTC 2017 Finished experiment 214. Approx input rate: 53.2 Tx/s
+Sun Nov 26 19:11:00 UTC 2017 Starting new experiment from config: (195) 100Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 20 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Sun Nov 26 19:18:06 UTC 2017 Finished experiment 215. Approx input rate: 61.5 Tx/s
+
+
+Mon Nov 27 07:36:13 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Mon Nov 27 07:36:23 UTC 2017 Starting new experiment from config: (195) 85Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 17 1 30 2 1 open 1 CouchDB 4vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 07:43:34 UTC 2017 Finished experiment 216. Approx input rate: 53.2 Tx/s
+Mon Nov 27 07:43:35 UTC 2017 Starting new experiment from config: (195) 85Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 17 1 30 2 1 open 1 CouchDB 8vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 07:50:45 UTC 2017 Finished experiment 217. Approx input rate: 53.2 Tx/s
+
+
+Mon Nov 27 08:00:33 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Mon Nov 27 08:00:40 UTC 2017 Starting new experiment from config: (195) 170Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 17 1 30 2 1 open 1 CouchDB 4vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 08:07:51 UTC 2017 Finished experiment 218. Approx input rate: 104.7 Tx/s
+Mon Nov 27 08:07:52 UTC 2017 Starting new experiment from config: (195) 170Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 17 1 30 2 1 open 1 CouchDB 8vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 08:15:02 UTC 2017 Finished experiment 219. Approx input rate: 104.9 Tx/s
+
+
+Mon Nov 27 08:20:24 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout pipelined_vscc_and_commit_AND_couch_bulk_AND_cdata_cache; make peer orderer;' & done; wait;'
+Mon Nov 27 08:20:40 UTC 2017 Starting new experiment from config: (195) 170Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 17 1 30 2 1 open 1 CouchDB 4vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_And_Pipeline Paper'
+Mon Nov 27 08:27:51 UTC 2017 Finished experiment 220. Approx input rate: 104.7 Tx/s
+Mon Nov 27 08:27:52 UTC 2017 Starting new experiment from config: (195) 170Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 17 1 30 2 1 open 1 CouchDB 8vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_And_Pipeline Paper'
+Mon Nov 27 08:35:02 UTC 2017 Finished experiment 221. Approx input rate: 104.8 Tx/s
+
+
+Mon Nov 27 10:54:36 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout pipelined_vscc_and_commit_AND_couch_bulk_AND_cdata_cache; make peer orderer;' & done; wait;'
+Mon Nov 27 10:54:43 UTC 2017 Starting new experiment from config: (195) 120Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 12 1 30 2 1 open 1 CouchDB 4vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_And_Pipeline Paper'
+Mon Nov 27 11:01:53 UTC 2017 Finished experiment 222. Approx input rate: 73.6 Tx/s
+Mon Nov 27 11:01:54 UTC 2017 Starting new experiment from config: (195) 130Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 13 1 30 2 1 open 1 CouchDB 8vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_And_Pipeline Paper'
+Mon Nov 27 11:09:05 UTC 2017 Finished experiment 223. Approx input rate: 80.3 Tx/s
+
+
+Mon Nov 27 11:24:04 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Mon Nov 27 11:24:20 UTC 2017 Starting new experiment from config: (195) 120Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 12 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 11:31:31 UTC 2017 Finished experiment 224. Approx input rate: 73.6 Tx/s
+Mon Nov 27 11:31:32 UTC 2017 Starting new experiment from config: (195) 130Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 13 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 11:38:42 UTC 2017 Finished experiment 225. Approx input rate: 80.3 Tx/s
+Mon Nov 27 11:38:42 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout pipelined_vscc_and_commit_AND_couch_bulk_AND_cdata_cache; make peer orderer;' & done; wait;'
+Mon Nov 27 11:38:58 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 1 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Mon Nov 27 11:38:59 UTC 2017 Starting new experiment from config: (195) 120Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 12 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_And_Pipeline Paper'
+Mon Nov 27 11:46:10 UTC 2017 Finished experiment 226. Approx input rate: 73.7 Tx/s
+Mon Nov 27 11:46:11 UTC 2017 Starting new experiment from config: (195) 130Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 13 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_And_Pipeline Paper'
+Mon Nov 27 11:53:21 UTC 2017 Finished experiment 227. Approx input rate: 80.3 Tx/s
+Mon Nov 27 11:53:22 UTC 2017 Starting new experiment from config: (195) 180Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 18 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_And_Pipeline Paper'
+
+
+Mon Nov 27 11:58:36 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Mon Nov 27 11:58:51 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout pipelined_vscc_and_commit_AND_couch_bulk_AND_cdata_cache; make peer orderer;' & done; wait;'
+Mon Nov 27 11:59:04 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 2 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Mon Nov 27 11:59:05 UTC 2017 Starting new experiment from config: (195) 130Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 13 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_And_Pipeline_TEST'
+Mon Nov 27 12:06:16 UTC 2017 Finished experiment 228. Approx input rate: 80.3 Tx/s
+Mon Nov 27 12:06:17 UTC 2017 Starting new experiment from config: (195) 180Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '10 18 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_And_Pipeline_TEST'
+
+
+Mon Nov 27 14:31:52 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Mon Nov 27 14:32:08 UTC 2017 Starting new experiment from config: (195) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 16 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 14:39:18 UTC 2017 Finished experiment 229. Approx input rate: 49.8 Tx/s
+Mon Nov 27 14:39:19 UTC 2017 Starting new experiment from config: (195) 90Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 18 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 14:46:29 UTC 2017 Finished experiment 230. Approx input rate: 56.1 Tx/s
+Mon Nov 27 14:46:30 UTC 2017 Starting new experiment from config: (195) 110Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 22 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 14:53:40 UTC 2017 Finished experiment 231. Approx input rate: 68.5 Tx/s
+Mon Nov 27 14:53:41 UTC 2017 Starting new experiment from config: (195) 120Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 24 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 15:00:52 UTC 2017 Finished experiment 232. Approx input rate: 75.0 Tx/s
+
+############ Ignore the following. Repeated by mistake ######
+
+Mon Nov 27 17:45:00 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Mon Nov 27 17:45:07 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 17:52:18 UTC 2017 Finished experiment 233. Approx input rate: 12.3 Tx/s
+Mon Nov 27 17:52:19 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 17:59:28 UTC 2017 Finished experiment 234. Approx input rate: 18.6 Tx/s
+Mon Nov 27 17:59:29 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 18:06:39 UTC 2017 Finished experiment 235. Approx input rate: 24.7 Tx/s
+Mon Nov 27 18:06:40 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 18:13:49 UTC 2017 Finished experiment 236. Approx input rate: 30.9 Tx/s
+Mon Nov 27 18:13:50 UTC 2017 Starting new experiment from config: (195) 60Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 12 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 18:21:00 UTC 2017 Finished experiment 237. Approx input rate: 37.2 Tx/s
+Mon Nov 27 18:21:01 UTC 2017 Starting new experiment from config: (195) 70Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 14 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 18:32:17 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Mon Nov 27 18:32:24 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 18:39:34 UTC 2017 Finished experiment 238. Approx input rate: 12.4 Tx/s
+Mon Nov 27 18:39:35 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 18:46:46 UTC 2017 Finished experiment 239. Approx input rate: 18.6 Tx/s
+Mon Nov 27 18:46:46 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 18:53:56 UTC 2017 Finished experiment 240. Approx input rate: 24.7 Tx/s
+Mon Nov 27 18:53:57 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 19:01:07 UTC 2017 Finished experiment 241. Approx input rate: 30.8 Tx/s
+Mon Nov 27 19:01:08 UTC 2017 Starting new experiment from config: (195) 60Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 12 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 19:08:17 UTC 2017 Finished experiment 242. Approx input rate: 37.2 Tx/s
+Mon Nov 27 19:08:18 UTC 2017 Starting new experiment from config: (195) 70Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 14 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 19:15:28 UTC 2017 Finished experiment 243. Approx input rate: 43.5 Tx/s
+Mon Nov 27 19:21:38 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Mon Nov 27 19:26:50 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Mon Nov 27 19:26:54 UTC 2017 Starting new experiment from config: (195) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 16 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 19:34:04 UTC 2017 Finished experiment 244. Approx input rate: 49.8 Tx/s
+Mon Nov 27 19:34:05 UTC 2017 Starting new experiment from config: (195) 90Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 18 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+Mon Nov 27 19:41:15 UTC 2017 Finished experiment 245. Approx input rate: 56.1 Tx/s
+Mon Nov 27 19:41:16 UTC 2017 Starting new experiment from config: (195) 100Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 20 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly Paper'
+
+################# End ignorance here #######################
+
+
+Mon Nov 27 20:00:34 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; make peer orderer;' & done; wait;'
+Mon Nov 27 20:00:54 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Mon Nov 27 20:00:54 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 5 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Mon Nov 27 20:00:55 UTC 2017 Starting new experiment from config: (195) 512Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 16 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Mon Nov 27 20:08:15 UTC 2017 Finished experiment 246. Approx input rate: 514.6 Tx/s
+Mon Nov 27 20:08:16 UTC 2017 Starting new experiment from config: (195) 1024Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 32 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Mon Nov 27 20:15:51 UTC 2017 Finished experiment 247. Approx input rate: 1008.7 Tx/s
+Mon Nov 27 20:15:53 UTC 2017 Starting new experiment from config: (195) 1536Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 48 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Mon Nov 27 20:23:40 UTC 2017 Finished experiment 248. Approx input rate: 1500.9 Tx/s
+
+___BAD___Mon Nov 27 20:23:43 UTC 2017 Starting new experiment from config: (195) 2016Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '48 42 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+___BAD___Mon Nov 27 20:31:37 UTC 2017 Finished experiment 249. Approx input rate: 1839.0 Tx/s
+___BAD___Mon Nov 27 20:31:40 UTC 2017 Starting new experiment from config: (195) 128Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 4 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+___BAD___Mon Nov 27 20:38:51 UTC 2017 Finished experiment 250. Approx input rate: 0.5 Tx/s
+___BAD___Mon Nov 27 20:38:51 UTC 2017 Starting new experiment from config: (195) 256Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 8 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+___BAD___Mon Nov 27 20:46:01 UTC 2017 Finished experiment 251. Approx input rate: 0.5 Tx/s
+___BAD___Mon Nov 27 20:46:01 UTC 2017 Starting new experiment from config: (195) 512Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 16 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+___BAD___Mon Nov 27 20:53:11 UTC 2017 Finished experiment 252. Approx input rate: 0.5 Tx/s
+___BAD___Mon Nov 27 20:53:12 UTC 2017 Starting new experiment from config: (195) 512Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 16 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+___BAD___Mon Nov 27 21:00:21 UTC 2017 Finished experiment 253. Approx input rate: 0.6 Tx/s
+___BAD___Mon Nov 27 21:00:22 UTC 2017 Starting new experiment from config: (195) 1024Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 32 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+___BAD___Mon Nov 27 21:07:32 UTC 2017 Finished experiment 254. Approx input rate: 0.8 Tx/s
+___BAD___Mon Nov 27 21:07:33 UTC 2017 Starting new experiment from config: (195) 1536Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 48 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+___BAD___Mon Nov 27 21:14:43 UTC 2017 Finished experiment 255. Approx input rate: 1.1 Tx/s
+___BAD___Mon Nov 27 21:14:44 UTC 2017 Starting new experiment from config: (195) 2016Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '48 42 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+___BAD___Mon Nov 27 21:21:54 UTC 2017 Finished experiment 256. Approx input rate: 1.4 Tx/s
+___BAD___Mon Nov 27 21:21:54 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+___BAD___Mon Nov 27 21:22:12 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 4 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+___BAD___Mon Nov 27 21:29:22 UTC 2017 Finished experiment 257. Approx input rate: 12.3 Tx/s
+___BAD___Mon Nov 27 21:29:23 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 6 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+___BAD___Mon Nov 27 21:47:50 UTC 2017 Finished experiment 258. Approx input rate: 18.5 Tx/s
+___BAD___Mon Nov 27 21:47:51 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 8 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+___BAD___Mon Nov 27 21:55:01 UTC 2017 Finished experiment 259. Approx input rate: 24.6 Tx/s
+___BAD___Mon Nov 27 21:55:02 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 10 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+___BAD___Mon Nov 27 22:02:13 UTC 2017 Finished experiment 260. Approx input rate: 30.7 Tx/s
+___BAD___Mon Nov 27 22:02:14 UTC 2017 Starting new experiment from config: (195) 60Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 12 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+___BAD___Mon Nov 27 22:09:25 UTC 2017 Finished experiment 261. Approx input rate: 37.0 Tx/s
+___BAD___Mon Nov 27 22:09:26 UTC 2017 Starting new experiment from config: (195) 70Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 14 1 30 2 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+___BAD___Mon Nov 27 22:16:36 UTC 2017 Finished experiment 262. Approx input rate: 43.2 Tx/s
+___BAD___Mon Nov 27 22:16:37 UTC 2017 Starting new experiment from config: (195) 80Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '5 16 1 30 2 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+___BAD___Mon Nov 27 22:23:48 UTC 2017 Finished experiment 263. Approx input rate: 49.8 Tx/s
+
+
+Tue Nov 28 09:39:25 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; git checkout HEAD~1; make peer orderer;' & done; wait;'
+Tue Nov 28 09:39:42 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Nov 28 09:39:42 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 5 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Nov 28 09:39:43 UTC 2017 Starting new experiment from config: (195) 2100Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '42 50 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 09:47:31 UTC 2017 Finished experiment 264. Approx input rate: 1423.9 Tx/s
+Tue Nov 28 09:47:34 UTC 2017 Starting new experiment from config: (195) 128Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 4 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 09:54:45 UTC 2017 Finished experiment 265. Approx input rate: 96.0 Tx/s
+Tue Nov 28 09:54:46 UTC 2017 Starting new experiment from config: (195) 256Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 8 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+
+
+Tue Nov 28 10:01:36 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; git checkout HEAD~1; make peer orderer;' & done; wait;'
+Tue Nov 28 10:01:47 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Nov 28 10:01:47 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 5 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Nov 28 10:01:48 UTC 2017 Starting new experiment from config: (195) 512Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 16 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+
+
+Tue Nov 28 10:04:35 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; git checkout HEAD~1; make peer orderer;' & done; wait;'
+Tue Nov 28 10:04:46 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Nov 28 10:04:46 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 5 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Nov 28 10:04:47 UTC 2017 Starting new experiment from config: (195) 512Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 16 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 10:12:07 UTC 2017 Finished experiment 266. Approx input rate: 386.1 Tx/s
+Tue Nov 28 10:12:08 UTC 2017 Starting new experiment from config: (195) 512Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 16 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 10:19:28 UTC 2017 Finished experiment 267. Approx input rate: 386.1 Tx/s
+Tue Nov 28 10:19:29 UTC 2017 Starting new experiment from config: (195) 1024Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 32 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 10:26:58 UTC 2017 Finished experiment 268. Approx input rate: 765.4 Tx/s
+Tue Nov 28 10:27:00 UTC 2017 Starting new experiment from config: (195) 1536Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 48 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 10:34:22 UTC 2017 Finished experiment 269. Approx input rate: 367.1 Tx/s
+Tue Nov 28 10:34:23 UTC 2017 Starting new experiment from config: (195) 2100Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '42 50 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 10:41:48 UTC 2017 Finished experiment 270. Approx input rate: 461.1 Tx/s
+Tue Nov 28 10:41:48 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Tue Nov 28 10:42:07 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 4 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+Tue Nov 28 10:49:18 UTC 2017 Finished experiment 271. Approx input rate: 12.3 Tx/s
+Tue Nov 28 10:49:19 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 6 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+Tue Nov 28 10:56:29 UTC 2017 Finished experiment 272. Approx input rate: 18.5 Tx/s
+Tue Nov 28 10:56:30 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 8 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+Tue Nov 28 11:03:40 UTC 2017 Finished experiment 273. Approx input rate: 24.6 Tx/s
+Tue Nov 28 11:03:41 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 10 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+Tue Nov 28 11:10:52 UTC 2017 Finished experiment 274. Approx input rate: 30.8 Tx/s
+Tue Nov 28 11:10:53 UTC 2017 Starting new experiment from config: (195) 60Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 12 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+Tue Nov 28 11:18:04 UTC 2017 Finished experiment 275. Approx input rate: 37.0 Tx/s
+Tue Nov 28 11:18:05 UTC 2017 Starting new experiment from config: (195) 70Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 14 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+Tue Nov 28 11:25:16 UTC 2017 Finished experiment 276. Approx input rate: 43.3 Tx/s
+Tue Nov 28 11:25:17 UTC 2017 Starting new experiment from config: (195) 80Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 16 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+Tue Nov 28 11:32:27 UTC 2017 Finished experiment 277. Approx input rate: 49.8 Tx/s
+
+
+Tue Nov 28 13:28:27 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; git checkout HEAD~1; make peer orderer;' & done; wait;'
+Tue Nov 28 13:28:44 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Nov 28 13:28:45 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 5 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Nov 28 13:28:46 UTC 2017 Starting new experiment from config: (195) 2300Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '46 50 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 13:36:36 UTC 2017 Finished experiment 278. Approx input rate: 1533.6 Tx/s
+Tue Nov 28 13:36:39 UTC 2017 Starting new experiment from config: (195) 256Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 8 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+
+
+Tue Nov 28 14:15:58 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; git checkout HEAD~1; make peer orderer;' & done; wait;'
+Tue Nov 28 14:16:12 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Nov 28 14:16:13 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 5 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Nov 28 14:16:14 UTC 2017 Starting new experiment from config: (195) 2300Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '46 50 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+
+
+Tue Nov 28 14:24:36 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout msp_opt_AND_parVSCC_AND_pipelineVSCC_Commit_AND_couchBatching; git checkout HEAD~1; make peer orderer;' & done; wait;'
+Tue Nov 28 14:24:47 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 32 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Tue Nov 28 14:24:47 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 5 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Tue Nov 28 14:24:48 UTC 2017 Starting new experiment from config: (195) 2300Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '46 50 1 30 3 1 open 1 LevelDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 14:32:45 UTC 2017 Finished experiment 279. Approx input rate: 1996.6 Tx/s
+Tue Nov 28 14:32:47 UTC 2017 Starting new experiment from config: (195) 256Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 8 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 14:40:04 UTC 2017 Finished experiment 280. Approx input rate: 256.1 Tx/s
+Tue Nov 28 14:40:05 UTC 2017 Starting new experiment from config: (195) 384Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 12 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 14:59:02 UTC 2017 Finished experiment 281. Approx input rate: 384.7 Tx/s
+Tue Nov 28 14:59:03 UTC 2017 Starting new experiment from config: (195) 640Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 20 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 15:06:29 UTC 2017 Finished experiment 282. Approx input rate: 642.4 Tx/s
+Tue Nov 28 15:06:31 UTC 2017 Starting new experiment from config: (195) 768Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 24 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 15:13:59 UTC 2017 Finished experiment 283. Approx input rate: 775.2 Tx/s
+Tue Nov 28 15:14:01 UTC 2017 Starting new experiment from config: (195) 896Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '32 28 1 30 3 1 open 1 CouchDB 32vCPU writeRandom MSP_PipelinedVSCCAndCommitAndBulk_PDepth=5'
+Tue Nov 28 15:21:31 UTC 2017 Finished experiment 284. Approx input rate: 907.0 Tx/s
+Tue Nov 28 15:21:32 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Tue Nov 28 15:21:53 UTC 2017 Starting new experiment from config: (195) 90Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 18 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+Tue Nov 28 15:29:05 UTC 2017 Finished experiment 285. Approx input rate: 56.1 Tx/s
+Tue Nov 28 15:29:06 UTC 2017 Starting new experiment from config: (195) 100Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 20 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 3-key 10K-Keys CouchBulkOptOnly_Real_Large Paper'
+Tue Nov 28 15:36:18 UTC 2017 Finished experiment 286. Approx input rate: 61.6 Tx/s
+
+
+Tue Nov 28 19:37:02 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Tue Nov 28 19:37:09 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 4 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_GossipLeaderElection_Large Paper'
+Tue Nov 28 19:44:23 UTC 2017 Finished experiment 287. Approx input rate: 12.3 Tx/s
+Tue Nov 28 19:44:23 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 6 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_GossipLeaderElection_Large Paper'
+Tue Nov 28 19:51:34 UTC 2017 Finished experiment 288. Approx input rate: 18.5 Tx/s
+Tue Nov 28 19:51:35 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 8 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_GossipLeaderElection_Large Paper'
+Tue Nov 28 19:58:45 UTC 2017 Finished experiment 289. Approx input rate: 24.6 Tx/s
+Tue Nov 28 19:58:46 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 10 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_GossipLeaderElection_Large Paper'
+Tue Nov 28 20:05:57 UTC 2017 Finished experiment 290. Approx input rate: 30.7 Tx/s
+Tue Nov 28 20:05:58 UTC 2017 Starting new experiment from config: (195) 60Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 12 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_GossipLeaderElection_Large Paper'
+Tue Nov 28 20:13:09 UTC 2017 Finished experiment 291. Approx input rate: 37.0 Tx/s
+Tue Nov 28 20:13:10 UTC 2017 Starting new experiment from config: (195) 70Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 14 1 30 3 1 open 1 CouchDB 32vCPU readWrite large 3-key 10K-Keys CouchBulkOptOnly_GossipLeaderElection_Large Paper'
+Tue Nov 28 20:20:21 UTC 2017 Finished experiment 292. Approx input rate: 43.3 Tx/s
+
+
+Mon Dec  4 20:28:05 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Mon Dec  4 20:28:22 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 4 1 30 3 1 open 1 LevelDB 32vCPU readWrite medium 10-key 10K-Keys NO_OPT_10Keys Paper'
+
+
+Mon Dec  4 20:30:00 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Mon Dec  4 20:30:08 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 4 1 30 3 1 open 1 LevelDB 32vCPU readWrite medium 10-key 10K-Keys NO_OPT_10Keys Paper'
+Mon Dec  4 20:37:18 UTC 2017 Finished experiment 293. Approx input rate: 12.4 Tx/s
+Mon Dec  4 20:37:19 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 6 1 30 3 1 open 1 LevelDB 32vCPU readWrite medium 10-key 10K-Keys NO_OPT_10Keys Paper'
+Mon Dec  4 20:44:28 UTC 2017 Finished experiment 294. Approx input rate: 18.6 Tx/s
+Mon Dec  4 20:44:29 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 8 1 30 3 1 open 1 LevelDB 32vCPU readWrite medium 10-key 10K-Keys NO_OPT_10Keys Paper'
+Mon Dec  4 20:51:39 UTC 2017 Finished experiment 295. Approx input rate: 24.7 Tx/s
+Mon Dec  4 20:51:40 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 10 1 30 3 1 open 1 LevelDB 32vCPU readWrite medium 10-key 10K-Keys NO_OPT_10Keys Paper'
+Mon Dec  4 20:58:50 UTC 2017 Finished experiment 296. Approx input rate: 30.9 Tx/s
+Mon Dec  4 20:58:51 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 4 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys NO_OPT_10Keys Paper'
+Mon Dec  4 21:06:01 UTC 2017 Finished experiment 297. Approx input rate: 12.3 Tx/s
+Mon Dec  4 21:06:01 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 6 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys NO_OPT_10Keys Paper'
+Mon Dec  4 21:13:11 UTC 2017 Finished experiment 298. Approx input rate: 18.3 Tx/s
+Mon Dec  4 21:13:12 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 8 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys NO_OPT_10Keys Paper'
+Mon Dec  4 21:30:39 UTC 2017 Finished experiment 299. Approx input rate: 24.6 Tx/s
+Mon Dec  4 21:30:39 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 10 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys NO_OPT_10Keys Paper'
+Mon Dec  4 21:37:50 UTC 2017 Finished experiment 300. Approx input rate: 30.7 Tx/s
+Mon Dec  4 21:37:50 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+Mon Dec  4 21:38:06 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 4 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkOpt_10Keys Paper'
+Mon Dec  4 21:45:16 UTC 2017 Finished experiment 301. Approx input rate: 12.4 Tx/s
+Mon Dec  4 21:45:17 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 6 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkOpt_10Keys Paper'
+Mon Dec  4 21:52:27 UTC 2017 Finished experiment 302. Approx input rate: 18.5 Tx/s
+Mon Dec  4 21:52:27 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 8 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkOpt_10Keys Paper'
+Mon Dec  4 21:59:37 UTC 2017 Finished experiment 303. Approx input rate: 24.7 Tx/s
+Mon Dec  4 21:59:38 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 10 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkOpt_10Keys Paper'
+Mon Dec  4 22:06:48 UTC 2017 Finished experiment 304. Approx input rate: 30.9 Tx/s
+Mon Dec  4 22:06:49 UTC 2017 Starting new experiment from config: (195) 60Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 12 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkOpt_10Keys Paper'
+Mon Dec  4 22:13:59 UTC 2017 Finished experiment 305. Approx input rate: 36.8 Tx/s
+Mon Dec  4 22:14:00 UTC 2017 Starting new experiment from config: (195) 70Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 14 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkOpt_10Keys Paper'
+Mon Dec  4 22:21:11 UTC 2017 Finished experiment 306. Approx input rate: 42.9 Tx/s
+Mon Dec  4 22:21:11 UTC 2017 Starting new experiment from config: (195) 80Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 16 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkOpt_10Keys Paper'
+Mon Dec  4 22:28:22 UTC 2017 Finished experiment 307. Approx input rate: 49.1 Tx/s
+Mon Dec  4 22:28:23 UTC 2017 Starting new experiment from config: (195) 90Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 18 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkOpt_10Keys Paper'
+Mon Dec  4 22:35:34 UTC 2017 Finished experiment 308. Approx input rate: 55.2 Tx/s
+Mon Dec  4 22:35:35 UTC 2017 Starting new experiment from config: (195) 100Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 20 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkOpt_10Keys Paper'
+Mon Dec  4 22:42:46 UTC 2017 Finished experiment 309. Approx input rate: 61.7 Tx/s
+Mon Dec  4 22:42:46 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout pipelined_vscc_and_commit_AND_couch_bulk_AND_cdata_cache; make peer orderer;' & done; wait;'
+Mon Dec  4 22:43:02 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 2 > /root/pipelinedValidateBlock_depth.txt' & done; wait'
+Mon Dec  4 22:43:03 UTC 2017 Starting new experiment from config: (195) 20Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 4 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkPipeline(Depth=2)Opt_10Keys Paper'
+Mon Dec  4 22:50:13 UTC 2017 Finished experiment 310. Approx input rate: 12.4 Tx/s
+Mon Dec  4 22:50:14 UTC 2017 Starting new experiment from config: (195) 30Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 6 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkPipeline(Depth=2)Opt_10Keys Paper'
+Mon Dec  4 22:57:24 UTC 2017 Finished experiment 311. Approx input rate: 18.5 Tx/s
+Mon Dec  4 22:57:25 UTC 2017 Starting new experiment from config: (195) 40Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 8 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkPipeline(Depth=2)Opt_10Keys Paper'
+Mon Dec  4 23:04:35 UTC 2017 Finished experiment 312. Approx input rate: 24.7 Tx/s
+Mon Dec  4 23:04:36 UTC 2017 Starting new experiment from config: (195) 50Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 10 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkPipeline(Depth=2)Opt_10Keys Paper'
+Mon Dec  4 23:11:46 UTC 2017 Finished experiment 313. Approx input rate: 30.9 Tx/s
+Mon Dec  4 23:11:47 UTC 2017 Starting new experiment from config: (195) 60Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 12 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkPipeline(Depth=2)Opt_10Keys Paper'
+Mon Dec  4 23:18:57 UTC 2017 Finished experiment 314. Approx input rate: 36.8 Tx/s
+Mon Dec  4 23:18:58 UTC 2017 Starting new experiment from config: (195) 70Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 14 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkPipeline(Depth=2)Opt_10Keys Paper'
+Mon Dec  4 23:26:08 UTC 2017 Finished experiment 315. Approx input rate: 43.0 Tx/s
+Mon Dec  4 23:26:09 UTC 2017 Starting new experiment from config: (195) 80Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 16 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkPipeline(Depth=2)Opt_10Keys Paper'
+Mon Dec  4 23:33:20 UTC 2017 Finished experiment 316. Approx input rate: 49.0 Tx/s
+Mon Dec  4 23:33:21 UTC 2017 Starting new experiment from config: (195) 90Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 18 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkPipeline(Depth=2)Opt_10Keys Paper'
+Mon Dec  4 23:40:32 UTC 2017 Finished experiment 317. Approx input rate: 55.2 Tx/s
+Mon Dec  4 23:40:33 UTC 2017 Starting new experiment from config: (195) 100Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '5 20 1 30 3 1 open 1 CouchDB 32vCPU readWrite medium 10-key 10K-Keys BulkPipeline(Depth=2)Opt_10Keys Paper'
+Mon Dec  4 23:47:45 UTC 2017 Finished experiment 318. Approx input rate: 61.4 Tx/s
+Mon Dec  4 23:47:45 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+
+
+Thu Dec 14 15:05:46 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout parallel_vscc_only; make peer orderer;' & done; wait;'
+Thu Dec 14 15:06:01 UTC 2017 Evaluating '$ for i in peer{0..7}; do ssh $i 'echo 30 > /root/parallelVSCCWorkerCount.txt' & done; wait;'
+Thu Dec 14 15:06:02 UTC 2017 Starting new experiment from config: (195) 1152Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '24 48 1 30 3 1 open 1 LevelDB 32vCPU writeRandom VSCC_EXPT_VSCC_OPT_30_THREADS'
+Thu Dec 14 15:13:20 UTC 2017 Finished experiment 319. Approx input rate: 1192.7 Tx/s
+Thu Dec 14 15:13:21 UTC 2017 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout cache_cdata_with_couch_bulk_optimization; make peer orderer;' & done; wait;'
+
+
+Wed Jan 10 12:33:50 UTC 2018 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout parallel_vscc_only; make peer orderer;' & done; wait;'
+
+
+Wed Jan 10 12:37:01 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 1-Endorsers, 1-Channels - Full: '25 5 1 30 1 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Wed Jan 10 12:44:02 UTC 2018 Finished experiment 320. Approx input rate: 124.9 Tx/s
+Wed Jan 10 12:44:03 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '25 5 1 30 2 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Wed Jan 10 12:51:13 UTC 2018 Finished experiment 321. Approx input rate: 124.9 Tx/s
+Wed Jan 10 12:51:14 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Wed Jan 10 12:58:24 UTC 2018 Finished experiment 322. Approx input rate: 124.9 Tx/s
+Wed Jan 10 12:58:25 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 4-Endorsers, 1-Channels - Full: '25 5 1 30 4 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Wed Jan 10 13:05:36 UTC 2018 Finished experiment 323. Approx input rate: 124.9 Tx/s
+Wed Jan 10 13:05:37 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 1s-Endorsers, 1-Channels - Full: '25 5 1 30 1s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Wed Jan 10 13:12:47 UTC 2018 Finished experiment 324. Approx input rate: 124.9 Tx/s
+Wed Jan 10 13:12:48 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 2s-Endorsers, 1-Channels - Full: '25 5 1 30 2s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Wed Jan 10 13:19:58 UTC 2018 Finished experiment 325. Approx input rate: 124.9 Tx/s
+Wed Jan 10 13:19:59 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 3s-Endorsers, 1-Channels - Full: '25 5 1 30 3s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Wed Jan 10 13:27:10 UTC 2018 Finished experiment 326. Approx input rate: 124.9 Tx/s
+Wed Jan 10 13:27:11 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 4s-Endorsers, 1-Channels - Full: '25 5 1 30 4s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Wed Jan 10 13:34:22 UTC 2018 Finished experiment 327. Approx input rate: 124.9 Tx/s
+
+
+Wed Jan 10 14:25:24 UTC 2018 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+Wed Jan 10 14:25:41 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 1-Endorsers, 1-Channels - Full: '25 5 1 30 1 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Wed Jan 10 14:32:51 UTC 2018 Finished experiment 320. Approx input rate: 124.9 Tx/s
+Wed Jan 10 14:32:52 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 2-Endorsers, 1-Channels - Full: '25 5 1 30 2 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Wed Jan 10 14:40:02 UTC 2018 Finished experiment 321. Approx input rate: 124.9 Tx/s
+Wed Jan 10 14:40:03 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Wed Jan 10 14:47:13 UTC 2018 Finished experiment 322. Approx input rate: 124.9 Tx/s
+Wed Jan 10 14:47:14 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 4-Endorsers, 1-Channels - Full: '25 5 1 30 4 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY Paper'
+Wed Jan 10 14:54:25 UTC 2018 Finished experiment 323. Approx input rate: 124.9 Tx/s
+Wed Jan 10 14:54:26 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 1s-Endorsers, 1-Channels - Full: '25 5 1 30 1s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Wed Jan 10 15:01:36 UTC 2018 Finished experiment 324. Approx input rate: 124.9 Tx/s
+Wed Jan 10 15:01:37 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 2s-Endorsers, 1-Channels - Full: '25 5 1 30 2s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Wed Jan 10 15:08:46 UTC 2018 Finished experiment 325. Approx input rate: 124.9 Tx/s
+Wed Jan 10 15:08:47 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 3s-Endorsers, 1-Channels - Full: '25 5 1 30 3s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Wed Jan 10 15:15:57 UTC 2018 Finished experiment 326. Approx input rate: 124.9 Tx/s
+Wed Jan 10 15:15:58 UTC 2018 Starting new experiment from config: (320) 125Tx/s, Batch-30, open system, 4s-Endorsers, 1-Channels - Full: '25 5 1 30 4s 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_ENDORSEMENT_POLICY_SHORT Paper'
+Wed Jan 10 15:23:08 UTC 2018 Finished experiment 327. Approx input rate: 124.9 Tx/s
+
+
+Wed Jan 10 16:31:02 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Wed Jan 10 16:38:13 UTC 2018 Finished experiment 328. Approx input rate: 124.9 Tx/s
+Wed Jan 10 16:38:14 UTC 2018 Starting new experiment from config: (500) 275Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 11 1 30 3 2 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Wed Jan 10 16:46:01 UTC 2018 Finished experiment 329. Approx input rate: 275.0 Tx/s
+Wed Jan 10 16:46:02 UTC 2018 Starting new experiment from config: (500) 500Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 20 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Wed Jan 10 16:55:01 UTC 2018 Finished experiment 330. Approx input rate: 499.0 Tx/s
+Wed Jan 10 16:55:03 UTC 2018 Starting new experiment from config: (500) 1000Tx/s, Batch-30, open system, 3-Endorsers, 8-Channels - Full: '25 40 1 30 3 8 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Wed Jan 10 17:06:29 UTC 2018 Finished experiment 331. Approx input rate: 1001.2 Tx/s
+Wed Jan 10 17:06:31 UTC 2018 Starting new experiment from config: (500) 1100Tx/s, Batch-30, open system, 3-Endorsers, 16-Channels - Full: '25 44 1 30 3 16 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Wed Jan 10 17:22:30 UTC 2018 Finished experiment 332. Approx input rate: 1086.7 Tx/s
+Wed Jan 10 17:22:31 UTC 2018 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+
+
+Thu Jan 11 03:13:02 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 03:20:14 UTC 2018 Finished experiment 333. Approx input rate: 124.9 Tx/s
+Thu Jan 11 03:20:15 UTC 2018 Starting new experiment from config: (500) 275Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 11 1 30 3 2 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 03:28:03 UTC 2018 Finished experiment 334. Approx input rate: 275.1 Tx/s
+Thu Jan 11 03:28:04 UTC 2018 Starting new experiment from config: (500) 500Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 20 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 03:37:03 UTC 2018 Finished experiment 335. Approx input rate: 498.8 Tx/s
+Thu Jan 11 03:37:05 UTC 2018 Starting new experiment from config: (500) 1000Tx/s, Batch-30, open system, 3-Endorsers, 8-Channels - Full: '25 40 1 30 3 8 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+
+
+Thu Jan 11 03:52:59 UTC 2018 Starting new experiment from config: (500) 200Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 8 1 30 3 2 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 04:00:45 UTC 2018 Finished experiment 336. Approx input rate: 199.8 Tx/s
+Thu Jan 11 04:00:46 UTC 2018 Starting new experiment from config: (500) 225Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 9 1 30 3 2 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 04:08:32 UTC 2018 Finished experiment 337. Approx input rate: 223.5 Tx/s
+Thu Jan 11 04:08:33 UTC 2018 Starting new experiment from config: (500) 250Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 10 1 30 3 2 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 04:16:21 UTC 2018 Finished experiment 338. Approx input rate: 249.7 Tx/s
+Thu Jan 11 04:16:22 UTC 2018 Starting new experiment from config: (500) 275Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 11 1 30 3 2 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 04:24:10 UTC 2018 Finished experiment 339. Approx input rate: 275.1 Tx/s
+Thu Jan 11 04:24:11 UTC 2018 Starting new experiment from config: (500) 375Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 15 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 04:33:07 UTC 2018 Finished experiment 340. Approx input rate: 373.8 Tx/s
+Thu Jan 11 04:33:08 UTC 2018 Starting new experiment from config: (500) 400Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 16 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 04:42:06 UTC 2018 Finished experiment 341. Approx input rate: 397.4 Tx/s
+Thu Jan 11 04:42:07 UTC 2018 Starting new experiment from config: (500) 425Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 17 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 04:51:05 UTC 2018 Finished experiment 342. Approx input rate: 424.3 Tx/s
+Thu Jan 11 04:51:06 UTC 2018 Starting new experiment from config: (500) 450Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 18 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 05:00:04 UTC 2018 Finished experiment 343. Approx input rate: 447.0 Tx/s
+Thu Jan 11 05:00:05 UTC 2018 Starting new experiment from config: (500) 475Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 19 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 05:09:06 UTC 2018 Finished experiment 344. Approx input rate: 472.3 Tx/s
+Thu Jan 11 05:09:08 UTC 2018 Starting new experiment from config: (500) 500Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 20 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 05:18:10 UTC 2018 Finished experiment 345. Approx input rate: 498.8 Tx/s
+Thu Jan 11 05:18:11 UTC 2018 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+
+
+Thu Jan 11 05:45:09 UTC 2018 Starting new experiment from config: (500) 325Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 13 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 05:54:09 UTC 2018 Finished experiment 346. Approx input rate: 325.1 Tx/s
+Thu Jan 11 05:54:10 UTC 2018 Starting new experiment from config: (500) 350Tx/s, Batch-30, open system, 3-Endorsers, 4-Channels - Full: '25 14 1 30 3 4 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 06:03:08 UTC 2018 Finished experiment 347. Approx input rate: 347.7 Tx/s
+Thu Jan 11 06:03:09 UTC 2018 Evaluating '$ for i in peer{0..7} orderer0; do ssh $i 'fabric; git pull origin; git checkout unoptimized_with_logs; make peer orderer;' & done; wait;'
+
+
+Thu Jan 11 06:24:05 UTC 2018 Starting new experiment from config: (500) 600Tx/s, Batch-30, open system, 3-Endorsers, 8-Channels - Full: '25 24 1 30 3 8 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 06:35:06 UTC 2018 Finished experiment 347. Approx input rate: 348.4 Tx/s
+Thu Jan 11 06:35:08 UTC 2018 Starting new experiment from config: (500) 625Tx/s, Batch-30, open system, 3-Endorsers, 8-Channels - Full: '25 25 1 30 3 8 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 06:46:10 UTC 2018 Finished experiment 347. Approx input rate: 348.4 Tx/s
+Thu Jan 11 06:46:11 UTC 2018 Starting new experiment from config: (500) 650Tx/s, Batch-30, open system, 3-Endorsers, 8-Channels - Full: '25 26 1 30 3 8 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 06:57:12 UTC 2018 Finished experiment 347. Approx input rate: 348.5 Tx/s
+Thu Jan 11 06:57:13 UTC 2018 Starting new experiment from config: (500) 675Tx/s, Batch-30, open system, 3-Endorsers, 8-Channels - Full: '25 27 1 30 3 8 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 07:08:14 UTC 2018 Finished experiment 347. Approx input rate: 348.4 Tx/s
+Thu Jan 11 07:08:16 UTC 2018 Starting new experiment from config: (500) 700Tx/s, Batch-30, open system, 3-Endorsers, 8-Channels - Full: '25 28 1 30 3 8 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+
+
+Thu Jan 11 07:14:33 UTC 2018 Starting new experiment from config: (500) 600Tx/s, Batch-30, open system, 3-Endorsers, 8-Channels - Full: '25 24 1 30 3 8 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 07:25:37 UTC 2018 Finished experiment 348. Approx input rate:  Tx/s
+Thu Jan 11 07:25:39 UTC 2018 Starting new experiment from config: (500) 625Tx/s, Batch-30, open system, 3-Endorsers, 8-Channels - Full: '25 25 1 30 3 8 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 07:36:40 UTC 2018 Finished experiment 349. Approx input rate: 0.0 Tx/s
+Thu Jan 11 07:36:41 UTC 2018 Starting new experiment from config: (500) 650Tx/s, Batch-30, open system, 3-Endorsers, 8-Channels - Full: '25 26 1 30 3 8 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+
+
+Thu Jan 11 07:44:40 UTC 2018 Starting new experiment from config: (500) 150Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 6 1 30 3 1 open 1 LevelDB 2vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 07:52:06 UTC 2018 Finished experiment 350. Approx input rate: 149.8 Tx/s
+Thu Jan 11 07:52:07 UTC 2018 Starting new experiment from config: (500) 150Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 6 1 30 3 1 open 1 LevelDB 4vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 07:59:31 UTC 2018 Finished experiment 351. Approx input rate: 149.8 Tx/s
+Thu Jan 11 07:59:32 UTC 2018 Starting new experiment from config: (500) 150Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 6 1 30 3 1 open 1 LevelDB 8vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 08:06:56 UTC 2018 Finished experiment 352. Approx input rate: 149.8 Tx/s
+Thu Jan 11 08:06:58 UTC 2018 Starting new experiment from config: (500) 150Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 6 1 30 3 1 open 1 LevelDB 16vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 08:14:22 UTC 2018 Finished experiment 353. Approx input rate: 149.8 Tx/s
+Thu Jan 11 08:14:24 UTC 2018 Starting new experiment from config: (500) 150Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 6 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 08:21:50 UTC 2018 Finished experiment 354. Approx input rate: 149.8 Tx/s
+Thu Jan 11 08:21:55 UTC 2018 Starting new experiment from config: (500) 225Tx/s, Batch-30, open system, 3-Endorsers, 2-Channels - Full: '25 9 1 30 3 2 open 1 LevelDB 2vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+
+
+Thu Jan 11 08:52:55 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 2vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 09:00:16 UTC 2018 Finished experiment 355. Approx input rate: 109.6 Tx/s
+Thu Jan 11 09:00:17 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 4vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 09:07:36 UTC 2018 Finished experiment 356. Approx input rate:  Tx/s
+Thu Jan 11 09:07:37 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 8vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 09:14:56 UTC 2018 Finished experiment 356. Approx input rate:  Tx/s
+Thu Jan 11 09:14:57 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 16vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 09:22:17 UTC 2018 Finished experiment 357. Approx input rate:  Tx/s
+Thu Jan 11 09:22:19 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 09:29:38 UTC 2018 Finished experiment 358. Approx input rate:  Tx/s
+
+
+Thu Jan 11 09:40:19 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 2vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 09:47:29 UTC 2018 Finished experiment 359. Approx input rate:  Tx/s
+Thu Jan 11 09:47:30 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 4vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 09:54:49 UTC 2018 Finished experiment 360. Approx input rate:  Tx/s
+Thu Jan 11 09:54:50 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 8vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 10:02:09 UTC 2018 Finished experiment 361. Approx input rate: 0.0 Tx/s
+Thu Jan 11 10:02:11 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 16vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+
+
+Thu Jan 11 10:21:05 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 2vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 10:28:32 UTC 2018 Finished experiment 1. Approx input rate: 124.9 Tx/s
+Thu Jan 11 10:28:33 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 4vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 10:35:56 UTC 2018 Finished experiment 2. Approx input rate: 124.9 Tx/s
+Thu Jan 11 10:35:57 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 8vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 10:43:20 UTC 2018 Finished experiment 3. Approx input rate: 124.9 Tx/s
+Thu Jan 11 10:43:21 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 16vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 10:50:45 UTC 2018 Finished experiment 4. Approx input rate: 124.9 Tx/s
+Thu Jan 11 10:50:46 UTC 2018 Starting new experiment from config: (500) 125Tx/s, Batch-30, open system, 3-Endorsers, 1-Channels - Full: '25 5 1 30 3 1 open 1 LevelDB 32vCPU writeRandom NO_OPT_MULTICHANNEL Paper'
+Thu Jan 11 10:58:10 UTC 2018 Finished experiment 5. Approx input rate: 124.9 Tx/s
