@@ -1,6 +1,6 @@
 A couple of random points that come to my head that'll help you:
 1. We have two peers per org assumed in the setup scripts. You'll need to modify those if you want to have more peers per org.
-2. Base directory is /root/bcnetwork. This has been hardcoded in the scripts.
+2. Base directory is /root/bcnetwork (this stores only the configs and crypto materials) and /root/tools. This has been hardcoded in the scripts.
 3. Important files:
 
 **Important files (In decreasing order of importance):**
