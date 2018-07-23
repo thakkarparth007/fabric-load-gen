@@ -1,0 +1,25 @@
+peer:
+    #id denotes the name of peer
+    id: peer2 
+    #event-address denotes the ipaddress-of-peer:eventPort. 
+    #Each peer's eventhub listen on port 7053 which is the default 
+    #port given in fabric/sampleconfig/core.yaml     
+    event-address: peer2:7053
+msp:
+    #path contains the absolute path to the msp configuration files such
+    #as key, cacerts, rootcerts. For dev mode, use peer0-msp-for-dev
+    path: /root/bcnetwork/conf/crypto-config/peerOrganizations/org1/peers/peer2.org1/msp/ 
+    #localMspId denotes the MSP identity. For dev mode, use DEFAULT instead
+    #of Org0MSP   
+    localMspId: Org1MSP
+tls:
+    #disable tls for dev mode
+    enabled: false 
+    cert:
+        file: /root/git/src/github.com/hyperledger/fabric/fetch-block/peer0-msp-for-e2e/signcerts/peer0Signer.pem
+    key:
+        file: /root/git/src/github.com/hyperledger/fabric/fetch-block/peer0-msp-for-e2e/keystore/peer0Signer.pem
+    rootcert:        
+        file: /root/git/src/github.com/hyperledger/fabric/fetch-block/peer0-msp-for-e2e/cacerts/peerOrg0.pem
+    serverhostoverride: peer0       
+

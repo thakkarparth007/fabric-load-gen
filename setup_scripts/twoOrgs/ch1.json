@@ -1,0 +1,111 @@
+
+Channel creation for channel: ch1
+
+Read Set:
+{
+    "Channel": {
+        "Values": {
+            "Consortium": {
+                "Version": "0",
+                "ModPolicy": "",
+                "Value": {
+                    "name": "SampleConsortium"
+                }
+            }
+        },
+        "Policies": {},
+        "Groups": {
+            "Application": {
+                "Values": {},
+                "Policies": {},
+                "Groups": {
+                    "Org0MSP": {
+                        "Values": {},
+                        "Policies": {},
+                        "Groups": {}
+                    },
+                    "Org1MSP": {
+                        "Values": {},
+                        "Policies": {},
+                        "Groups": {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+Write Set:
+{
+    "Channel": {
+        "Values": {
+            "Consortium": {
+                "Version": "0",
+                "ModPolicy": "",
+                "Value": {
+                    "name": "SampleConsortium"
+                }
+            }
+        },
+        "Policies": {},
+        "Groups": {
+            "Application": {
+                "Values": {},
+                "Policies": {
+                    "Admins": {
+                        "Version": "0",
+                        "ModPolicy": "",
+                        "Policy": {
+                            "PolicyType": "3",
+                            "Policy": {
+                                "subPolicy": "Admins",
+                                "rule": "MAJORITY"
+                            }
+                        }
+                    },
+                    "Writers": {
+                        "Version": "0",
+                        "ModPolicy": "",
+                        "Policy": {
+                            "PolicyType": "3",
+                            "Policy": {
+                                "subPolicy": "Writers",
+                                "rule": "ANY"
+                            }
+                        }
+                    },
+                    "Readers": {
+                        "Version": "0",
+                        "ModPolicy": "",
+                        "Policy": {
+                            "PolicyType": "3",
+                            "Policy": {
+                                "subPolicy": "Readers",
+                                "rule": "ANY"
+                            }
+                        }
+                    }
+                },
+                "Groups": {
+                    "Org0MSP": {
+                        "Values": {},
+                        "Policies": {},
+                        "Groups": {}
+                    },
+                    "Org1MSP": {
+                        "Values": {},
+                        "Policies": {},
+                        "Groups": {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+Delta Set:
+[Policy] /Channel/Application/Writers
+[Policy] /Channel/Application/Readers
+[Groups] /Channel/Application
+[Policy] /Channel/Application/Admins
+

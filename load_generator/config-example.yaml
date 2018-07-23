@@ -1,0 +1,127 @@
+# Config structure:
+
+##
+## Load related settings
+##
+numClients: 2         # Twenty clients will hammer the network
+loadDurationMs: 6000  # Load will last 60 seconds
+invokeDelayMs: 1000      # Wait 10ms before invoking
+
+##
+## Misc config
+##
+requestTimeout: 60000 # Number of milliseconds after which a request times out
+endorsementPolicy: "3/4" # Format: "n/N" means n out of N endorsements are required
+
+## Network specification - same format as that in fabric-sdk-node/test/integration/e2e/config.json
+network:
+        orderer:
+            url: grpcs://localhost:7050
+            server-hostname: orderer.example.com
+            tls_cacerts: ../../fixtures/channel/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/cacerts/example.com-cert.pem
+        
+        org1:
+            name: peerOrg1
+            mspid: Org1MSP
+            ca:
+                url: https://localhost:7054
+                name: ca-org1
+            
+            peer1:
+                requests: grpcs://localhost:7051
+                events: grpcs://localhost:7053
+                server-hostname: peer0.org1.example.com
+                tls_cacerts: ../../fixtures/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/cacerts/org1.example.com-cert.pem
+        
+        org2:
+            name: peerOrg2
+            mspid: Org2MSP
+            ca:
+                url: https://localhost:8054
+                name: ca-org2
+            
+            peer1:
+                requests: grpcs://localhost:8051
+                events: grpcs://localhost:8053
+                server-hostname: peer0.org2.example.com
+                tls_cacerts: ../../fixtures/channel/crypto-config/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/cacerts/org2.example.com-cert.pem
+
+## Information about the deployed chaincode
+channelName: mychannel
+chaincodeVersion: 0
+chaincodeName: benchmarker
+chaincodeId: benchmarker
+
+##
+## Config related to the load generator
+##
+globalSeed: 1 # Number used to seed all random numbers being generated.
+
+# ReadRandom related config
+ReadRandom:
+    weight: 10 # weightage of ReadRandom calls to be made by a client
+    params:
+        nKeys: [3, 25] # Format: [min,max] - a client will call ReadRandom with nKeys set to a
+                       # random number between 3 and 25 (Uniform distribution)
+        keySize: [1, 20] # Format: [min,max] - keys of len between 1 and 20 will be read
+
+# ReadSequential related config
+ReadSequential:
+    weight: 10 # Weightage of ReadSequential calls to be made by client.
+    params:
+        keySize: [1, 20] # Format: [min,max] - startKey and endKey will be selected such that their lengths are between 1 and 20
+
+# ReadByPartialCompositeKey related config
+ReadByPartialCompositeKey:
+    weight: 10 # Weightage of ReadByPartialCompositeKey calls to be made by client.
+    params:
+        indexName: "color~priceRange" # Index name to be used for the Composite key
+        indexValueSpace: | # color will be selected from "blue,yellow,green" and priceRange from "low,medium,high"
+            blue,yellow,green
+            low,medium,high
+
+# WriteRandom related config
+WriteRandom:
+    weight: 10 # Weightage of WriteRandom calls to be made by client.
+    params:
+        nKeys: [3, 25] # Format: [min,max] - client will call WriteRandom with nKeys set to a
+                       # random number between 3 and 25 (Uniform distribution)
+        keySize: [1, 20] # Format: [min,max] - keys of len between 1 and 20 will be written
+        valSize: [20,50] # Format: [min,max] - keys of len between 20 and 50 characters will be written
+        indexName: "color~priceRange" # Index name to be used to createComposite key. Actual index name will
+                                      # be color~priceRange~id. Can be empty to not create any composite keys
+        indexValueSpace: | # colors will be selected from "blue,yellow,green" and priceRange from "low,medium,high"
+            blue,yellow,green
+            low,medium,high
+
+# WriteAfterReadRandom related config
+WriteAfterReadRandom:
+    weight: 10 # Weightage of WriteAfterReadRandom calls to be made by client.
+    params:
+        nKeys: [3, 25] # Format: [min,max] - client will call WriteRandom with nKeys set to a
+                       # random number between 3 and 25 (Uniform distribution)
+        keySize: [1, 20] # Format: [min,max] - keys of len between 1 and 20 will be written
+        valSize: [20,50] # Format: [min,max] - keys of len between 20 and 50 characters will be written
+        indexName: "color~priceRange" # Index name to be used to createComposite key. Actual index name will
+                                      # be color~priceRange~id. Can be empty to not create any composite keys
+        indexValueSpace: | # colors will be selected from "blue,yellow,green" and priceRange from "low,medium,high"
+            blue,yellow,green
+            low,medium,high
+
+# WriteAfterReadSequential related config
+WriteAfterReadSequential:
+    weight: 10 # Weightage of WriteAfterReadSequential calls to be made by client.
+    params:
+        keySize: [1, 20] # Format: [min,max] - startKey and endKey will be selected such that their lengths are between 1 and 20
+        valSize: [20,50] # Format: [min,max] - keys of len between 20 and 50 characters will be written
+        indexName: "color~priceRange" # Index name to be used to createComposite key. Actual index name will
+                                      # be color~priceRange~id. Can be empty to not create any composite keys
+        indexValueSpace: | # colors will be selected from "blue,yellow,green" and priceRange from "low,medium,high"
+            blue,yellow,green
+            low,medium,high
+
+# GetHistoryOfKey related config
+GetHistoryOfKey:
+    weight: 10 # Weightage of GetHistoryOfKey calls to be made by client.
+    params:
+        keySize: [1, 20] # Format: [min,max] - a key of length between 1 and 20 will be used to call GetHistoryOfKey
